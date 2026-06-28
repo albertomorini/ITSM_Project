@@ -1,0 +1,36 @@
+        %%******************************************%%
+        %%                                          %%
+        %%        Modello di tesi di laurea         %%
+        %%            di Andrea Giraldin            %%
+        %%                                          %%
+        %%             2 novembre 2012              %%
+        %%                                          %%
+        %%******************************************%%
+
+\begin{document}
+    \frontmatter
+    \input{preface/title-page}
+    \input{preface/copyright}
+    % \input{preface/summary}
+    % \input{preface/acknowledgements}
+    \input{preface/table-of-contents}
+    \cleardoublepage
+
+    \mainmatter
+    \input{chapters/introduction.tex}
+    \input{chapters/1_vision.tex}
+    \input{chapters/2_goals.tex}
+    \input{chapters/3_CustomerPartnership.tex}
+    \input{chapters/4_ProcessFactory.tex}
+    \input{chapters/5_ContinuousImprovement.tex}
+    \input{chapters/conclusions.tex}
+
+    \appendix
+    % \input{appendix/appendice-a}
+
+    \backmatter
+    \printglossary[type=\acronymtype, title=Acronimi e abbreviazioni, toctitle=Acronimi e abbreviazioni]
+    \printglossary[type=main, title=Glossario, toctitle=Glossario]
+
+    \input{appendix/bibliography}
+\end{document}

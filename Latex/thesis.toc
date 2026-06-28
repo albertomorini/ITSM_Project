@@ -1,0 +1,16 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Vision}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Goals}{3}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Customer Partnerships}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Time To Market}{4}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Performance To Contract}{4}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Process Factory}{5}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Standardization}{5}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Waste}{5}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Continuous Improvement}{6}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Service Costs}{6}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Backlog}{6}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusions}{7}{chapter.7}%
+\contentsline {chapter}{Bibliography}{9}{appendix*.8}%
