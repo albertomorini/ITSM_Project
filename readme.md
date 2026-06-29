@@ -21,7 +21,7 @@ Chapters
 Proposed Structure:
 
 - Abstract
-1. Introduction (we should mention the concepts mentioned in the itsm for Performance based management)
+1. Introduction (we should mention the concepts mentioned in the ITSM for Performance based management)
 2. VISION -> S
 3. GOALS -> A
    1. *To increase income from internet banking by 70%*
@@ -38,10 +38,12 @@ Proposed Structure:
       - Backlog -> A
 5. Measurement Procedures
    1. Time to Market
-   2. Performance to Contact
-   3. Standardization
-   4. Waste
-   5. 
+      (give and describe the card for each)
+   3. Performance to Contact
+   4. Standardization
+   5. Waste
+   6. Service Costs
+   7. Backlog
 6. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
       
 
