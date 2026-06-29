@@ -21,7 +21,7 @@ Chapters
 Proposed Structure:
 
 Abstract
-0- Intruction (we should mention the concepts mentioned in the itsm for Performance based management)
+0. Intruction (we should mention the concepts mentioned in the itsm for Performance based management)
 1. VISION -> S
 2. GOALS -> A
    1. *To increase income from internet banking by 70%*
@@ -36,7 +36,7 @@ Abstract
    3. Continuous Improvement -> S
       - Service Cors -> S
       - Backlog -> A
-4- Measurement Procedures
+4. Measurement Procedures
    (List all of the kpi measurement cards here)
 5. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
       
