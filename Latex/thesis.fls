@@ -543,6 +543,7 @@ INPUT chapters/2_goals.tex
 INPUT ./chapters/3_CustomerPartnership.tex
 INPUT ./chapters/3_CustomerPartnership.tex
 INPUT chapters/3_CustomerPartnership.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsl1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
 INPUT ./chapters/4_ProcessFactory.tex
 INPUT ./chapters/4_ProcessFactory.tex
@@ -558,7 +559,6 @@ INPUT ./appendix/bibliography.tex
 INPUT ./appendix/bibliography.tex
 INPUT ./appendix/bibliography.tex
 INPUT appendix/bibliography.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsl1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm
 INPUT thesis.aux
 INPUT thesis.run.xml

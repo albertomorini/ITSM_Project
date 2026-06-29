@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber printable-thesis"] 1782763207.1867 "printable-thesis.bcf" "printable-thesis.bbl" "printable-thesis" 1782764172.71207 0
+["biber printable-thesis"] 0 "printable-thesis.bcf" "printable-thesis.bbl" "printable-thesis" 1782766247.98569 -1
   "appendix/bibliography.bib" 1782658803.90792 1143 82d13f794dee82982a068b963f6d9d88 ""
-  "printable-thesis.bcf" 1782764172.56353 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
+  "printable-thesis.bcf" 1782766247.83286 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
   (generated)
   "printable-thesis.bbl"
   "printable-thesis.blg"
   (rewritten before read)
-["pdflatex"] 1782764171.06488 "/home/alby/uni/ITSM/ITSM_Project/Latex/printable-thesis.tex" "printable-thesis.pdf" "printable-thesis" 1782764172.71234 0
+["pdflatex"] 1782766246.40618 "/home/alby/uni/ITSM/ITSM_Project/Latex/printable-thesis.tex" "printable-thesis.pdf" "printable-thesis" 1782766247.98597 0
   "/etc/texmf/web2c/texmf.cnf" 1778430345.14703 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/alby/uni/ITSM/ITSM_Project/Latex/printable-thesis.tex" 1782659526.43247 228 38b37fc02c39b4f18aa036cc094f458b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -213,7 +213,7 @@
   "appendix/bibliography.tex" 1782658660.03757 357 42b3b7e46cf99808cd93678c165d5ac1 ""
   "appendix/glossary-entries.tex" 1782658660.03783 1560 6611ffdad3e2e4c0954e7aea4f846ed6 ""
   "chapters/1_vision.tex" 1782656505.79426 68 181e233e7309747a3791cf9b004d0fd3 ""
-  "chapters/2_goals.tex" 1782764170.86399 4485 d9bfee79a41846434927420f3a0f21ad ""
+  "chapters/2_goals.tex" 1782766245.2747 5867 09cdfdf7877143ebcddd44e69ccbf413 ""
   "chapters/3_CustomerPartnership.tex" 1782656718.98409 175 a5fc79513bc1cf2c1cb6468a1226e66b ""
   "chapters/4_ProcessFactory.tex" 1782656712.23706 133 c45f5cfae29a7b471d2b21f7dde5e480 ""
   "chapters/5_ContinuousImprovement.tex" 1782656760.03847 146 8795af083280f3fbd67202e676138b53 ""
@@ -223,19 +223,19 @@
   "config/thesis-config.tex" 1782745198.66995 5500 0c4358aaf85cb45b42e8b2c8fc0f7039 ""
   "config/variables.tex" 1782659956.99456 976 bdf841f8e8f3165770d2861d073c2910 ""
   "images/unipd-logo.png" 1707649943 67664 84735a93690b9fb71a069fcaad11490a ""
-  "pdfa.xmpi" 1782764171.55252 5557 cbb77a5f0c7f1e5d67db080f7af5200f "pdflatex"
+  "pdfa.xmpi" 1782766246.75086 5557 0574cc648a11489461e43c30288bf4a6 "pdflatex"
   "preface/copyright.tex" 1782657436.1243 159 77db181c63f50acd22d8bb6041a453dc ""
   "preface/table-of-contents.tex" 1707649943 515 8f86ac5c47278f1123f1c245568e8507 ""
   "preface/title-page.tex" 1782745185.42295 1485 324f164b0a88802a0d4eebcd618703dd ""
   "printable-thesis.acr" 0 -1 0 ""
-  "printable-thesis.aux" 1782764172.55906 8510 9f9c13d25e77bde66fb58ec6fd5a0985 "pdflatex"
-  "printable-thesis.bbl" 1782763207.87519 6385 6b946c501a4e0447aada27e6b13404af "biber printable-thesis"
+  "printable-thesis.aux" 1782766247.82792 8510 9f9c13d25e77bde66fb58ec6fd5a0985 "pdflatex"
+  "printable-thesis.bbl" 1782765280.36032 6385 6b946c501a4e0447aada27e6b13404af "biber printable-thesis"
   "printable-thesis.gls" 0 -1 0 ""
-  "printable-thesis.lof" 1782764172.56453 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
-  "printable-thesis.lot" 1782764172.56453 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
-  "printable-thesis.run.xml" 1782764172.56451 2445 b0bfa3d021744c100256023076dcbe95 "pdflatex"
+  "printable-thesis.lof" 1782766247.83476 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
+  "printable-thesis.lot" 1782766247.83476 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
+  "printable-thesis.run.xml" 1782766247.83476 2445 b0bfa3d021744c100256023076dcbe95 "pdflatex"
   "printable-thesis.tex" 1782659526.43247 228 38b37fc02c39b4f18aa036cc094f458b ""
-  "printable-thesis.toc" 1782764172.56453 1011 b8f2937821f14891a5cf790396e6c92d "pdflatex"
+  "printable-thesis.toc" 1782766247.83476 1011 b8f2937821f14891a5cf790396e6c92d "pdflatex"
   "printable-thesis.xmpdata" 1782659235.82603 170 3193c4b85ed761979cb48d30ffbdd13d ""
   "structure.tex" 1782659015.52181 1250 7098fac6894cc0e784503d339f417718 ""
   "thesis.tex" 1782681316.1963 316 9b37045be5fa0b9ed1089a0f8c26836b ""

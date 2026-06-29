@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  28 JUN 2026 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  29 JUN 2026 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2117,28 +2117,28 @@ Chapter 2.
 
 ]
 Chapter 3.
-) (./chapters/3_CustomerPartnership.tex [3
+[3
 
-]
+]) (./chapters/3_CustomerPartnership.tex [4]
 Chapter 4.
-) (./chapters/4_ProcessFactory.tex [4
+) (./chapters/4_ProcessFactory.tex [5
 
 ]
 Chapter 5.
-) (./chapters/5_ContinuousImprovement.tex [5
+) (./chapters/5_ContinuousImprovement.tex [6
 
 ]
 Chapter 6.
-) (./chapters/conclusions.tex [6
+) (./chapters/conclusions.tex [7
 
 ]
 Chapter 7.
-) [7
+) [8
 
 ]
 No file thesis.acr.
 No file thesis.gls.
-(./appendix/bibliography.tex [8
+(./appendix/bibliography.tex [9
 
 ]
 
@@ -2159,7 +2159,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package biblatex Warning: No driver for 'paper'.
 (biblatex)                Using fallback driver on input line 10.
 
-) [9
+) [10
 
 
 ] (./thesis.aux)
@@ -2172,18 +2172,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 39708 strings out of 467533
- 731703 string characters out of 5422138
- 1707354 words of memory out of 5000000
- 67907 multiletter control sequences out of 15000+600000
- 646196 words of font info for 113 fonts, out of 8000000 for 9000
+ 39751 strings out of 467533
+ 732197 string characters out of 5422138
+ 1711361 words of memory out of 5000000
+ 67915 multiletter control sequences out of 15000+600000
+ 647426 words of font info for 130 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  97i,6n,125p,2537b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (13 pages, 379684 bytes).
+Output written on thesis.pdf (14 pages, 390577 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
  45722 words of extra memory for PDF output out of 51595 (max. 10000000)
 
