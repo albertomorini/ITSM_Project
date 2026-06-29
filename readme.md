@@ -18,7 +18,7 @@ Chapters
       - Backlog -> A
 4. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
 
-Proposed Structure:
+Proposed Updated Structure of the Dissertation CHAPTERS:
 
 - Abstract
 1. Introduction (we should mention the concepts mentioned in the ITSM for Performance based management)
