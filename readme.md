@@ -20,13 +20,13 @@ Chapters
 
 Proposed Structure:
 
-Abstract
-0. Intruction (we should mention the concepts mentioned in the itsm for Performance based management)
-1. VISION -> S
-2. GOALS -> A
+- Abstract
+1. Introduction (we should mention the concepts mentioned in the itsm for Performance based management)
+2. VISION -> S
+3. GOALS -> A
    1. *To increase income from internet banking by 70%*
    2. *High quality and cost effectiveness*
-3. FACTORS
+4. Critical Success FACTORS
    1. Customer partnership -> A
       - Time To Market -> S
       - Performance To Contract -> A
@@ -36,9 +36,13 @@ Abstract
    3. Continuous Improvement -> S
       - Service Cors -> S
       - Backlog -> A
-4. Measurement Procedures
-   (List all of the kpi measurement cards here)
-5. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
+5. Measurement Procedures
+   1. Time to Market
+   2. Performance to Contact
+   3. Standardization
+   4. Waste
+   5. 
+6. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
       
 
 ------------------------
