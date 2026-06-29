@@ -18,6 +18,29 @@ Chapters
       - Backlog -> A
 4. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
 
+Proposed Structure:
+
+Abstract
+0- Intruction (we should mention the concepts mentioned in the itsm for Performance based management)
+1. VISION -> S
+2. GOALS -> A
+   1. *To increase income from internet banking by 70%*
+   2. *High quality and cost effectiveness*
+3. FACTORS
+   1. Customer partnership -> A
+      - Time To Market -> S
+      - Performance To Contract -> A
+   2. Process Factory -> S
+      - Standardization -> A
+      - Waste -> S
+   3. Continuous Improvement -> S
+      - Service Cors -> S
+      - Backlog -> A
+4- Measurement Procedures
+   (List all of the kpi measurement cards here)
+5. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
+      
+
 ------------------------
 
 # ITSM - project notes
