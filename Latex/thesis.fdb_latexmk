@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber thesis"] 1782903343.86216 "thesis.bcf" "thesis.bbl" "thesis" 1782903680.13087 0
+["biber thesis"] 1782903343.86216 "thesis.bcf" "thesis.bbl" "thesis" 1782904769.07932 0
   "appendix/bibliography.bib" 1782854905 1174 82d13f794dee82982a068b963f6d9d88 ""
-  "thesis.bcf" 1782903679 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
+  "thesis.bcf" 1782904768 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1782903676.27735 "d:/GitHub/ITSM_Project/Latex/thesis.tex" "thesis.pdf" "thesis" 1782903680.13214 0
+["pdflatex"] 1782904765.06628 "d:/GitHub/ITSM_Project/Latex/thesis.tex" "thesis.pdf" "thesis" 1782904769.08057 0
   "appendix/bibliography.tex" 1782854905 370 42b3b7e46cf99808cd93678c165d5ac1 ""
   "appendix/glossary-entries.tex" 1782854905 1583 6611ffdad3e2e4c0954e7aea4f846ed6 ""
   "chapters/0_abstract.tex" 1782854905 1195 36a4fd6d537a4f59ed7eeecdc8cf6887 ""
-  "chapters/1_vision.tex" 1782854905 71 181e233e7309747a3791cf9b004d0fd3 ""
+  "chapters/1_vision.tex" 1782904764 1393 06dc5f543469cb8d71e8628d04e9d6d6 ""
   "chapters/2_goals.tex" 1782854905 6118 a4c53ef78f842db9601f67f9d2551b63 ""
   "chapters/3_CustomerPartnership.tex" 1782903677 2132 5a5840fc15bd30f2c423e431e19e508f ""
   "chapters/4_ProcessFactory.tex" 1782854905 141 c45f5cfae29a7b471d2b21f7dde5e480 ""
@@ -226,20 +226,20 @@
   "d:/Program/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1782835541 3656590 a2110e6afc220e5ad03cd419d014464d ""
   "d:/Program/texlive/2026/texmf.cnf" 1782835166 713 e69b156964470283e0530f5060668171 ""
   "images/unipd-logo.png" 1782854905 67664 76ff6f1d0669338b4fe4b628fa33ae46 ""
-  "pdfa.xmpi" 1782903677 5536 3f8920068998f7d29474a0426f4ea08b "pdflatex"
+  "pdfa.xmpi" 1782904766 5536 5beb9b520cc5e30894ab35f40f6e04bb "pdflatex"
   "preface/copyright.tex" 1782854905 169 77db181c63f50acd22d8bb6041a453dc ""
   "preface/table-of-contents.tex" 1782854905 543 8f86ac5c47278f1123f1c245568e8507 ""
   "preface/title-page.tex" 1782854905 1551 324f164b0a88802a0d4eebcd618703dd ""
   "structure.tex" 1782854905 1284 835b28fbdfeedfd8b5ad5891fd005c0d ""
   "thesis.acr" 0 -1 0 ""
-  "thesis.aux" 1782903679 8321 68c636140060178062b9e50ff7205558 "pdflatex"
+  "thesis.aux" 1782904768 8321 68c636140060178062b9e50ff7205558 "pdflatex"
   "thesis.bbl" 1782903346 6535 6b946c501a4e0447aada27e6b13404af "biber thesis"
   "thesis.gls" 0 -1 0 ""
-  "thesis.lof" 1782903679 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
-  "thesis.lot" 1782903679 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
-  "thesis.run.xml" 1782903679 2406 6781b1e296a80bb72ec6c250f3fb1c7a "pdflatex"
+  "thesis.lof" 1782904768 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
+  "thesis.lot" 1782904768 190 84e9851f92b610fc7b63f18d7621c1e0 "pdflatex"
+  "thesis.run.xml" 1782904768 2406 6781b1e296a80bb72ec6c250f3fb1c7a "pdflatex"
   "thesis.tex" 1782854905 333 9b37045be5fa0b9ed1089a0f8c26836b ""
-  "thesis.toc" 1782903679 1003 3152f74ca0be972e77fe274f2737131c "pdflatex"
+  "thesis.toc" 1782904768 1003 3152f74ca0be972e77fe274f2737131c "pdflatex"
   "thesis.xmpdata" 1782854905 154 56fdd9d6f763595b659afec0aa55a7e9 ""
   (generated)
   "pdfa.xmpi"
