@@ -1,15 +1,24 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Abstract}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Vision}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Goals}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Customer Partnerships}{5}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Time To Market}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Performance To Contract}{5}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Process Factory}{6}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Standardization}{6}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Waste}{6}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Continuous Improvement}{7}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Service Costs}{7}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Backlog}{7}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Conclusions}{8}{chapter.7}%
-\contentsline {chapter}{Bibliography}{10}{appendix*.8}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Organisational Vision and Goals}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Vision}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Goals}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Critical Success Factors}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Customer Partnership}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Time To Market}{6}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Performance To Contract}{6}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Process Factory}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Standardization}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Waste}{7}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Continuous Improvement}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Service Costs}{7}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Backlog}{7}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Measurement Procedures}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Time to Market}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}performance to Contract}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Standardization}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Waste}{8}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Service Costs}{8}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Backlog}{8}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Conclusions}{9}{chapter.5}%
+\contentsline {chapter}{Bibliography}{11}{appendix*.9}%

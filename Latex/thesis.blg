@@ -1,17 +1,17 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'thesis.blg'
-[121] biber-MSWIN64:342> INFO - === 
-[164] Biber.pm:421> INFO - Reading 'thesis.bcf'
-[294] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[311] Biber.pm:4487> INFO - Processing section 0
-[324] Biber.pm:4678> INFO - Looking for bibtex file 'appendix/bibliography.bib' for section 0
-[375] bibtex.pm:1713> INFO - LaTeX decoding ...
-[382] bibtex.pm:1519> INFO - Found BibTeX data source 'appendix/bibliography.bib'
-[435] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[435] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[436] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[436] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[445] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[447] bbl.pm:779> INFO - Output to thesis.bbl
-[447] Biber.pm:132> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[447] Biber.pm:134> INFO - WARNINGS: 1
+[1] Config.pm:328> INFO - This is Biber 2.21
+[2] Config.pm:331> INFO - Logfile is 'thesis.blg'
+[1287] biber-MSWIN64:342> INFO - === 
+[1723] Biber.pm:421> INFO - Reading 'thesis.bcf'
+[2518] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[2613] Biber.pm:4487> INFO - Processing section 0
+[2727] Biber.pm:4678> INFO - Looking for bibtex file 'appendix/bibliography.bib' for section 0
+[2975] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3038] bibtex.pm:1519> INFO - Found BibTeX data source 'appendix/bibliography.bib'
+[3479] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3480] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3482] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[3483] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[3700] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[3711] bbl.pm:779> INFO - Output to thesis.bbl
+[3712] Biber.pm:132> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[3713] Biber.pm:134> INFO - WARNINGS: 1
