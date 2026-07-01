@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  1 JUL 2026 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  1 JUL 2026 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2118,9 +2118,9 @@ Chapter 2.
 
 ]) (./chapters/3_CriticalSuccessFactors.tex [4] [5]
 Chapter 3.
-) (./chapters/4_MeasurementProcedures.tex [6
+[6
 
-] [7]
+]) (./chapters/4_MeasurementProcedures.tex [7]
 Chapter 4.
 ) (./chapters/5_Conclusions.tex [8
 
@@ -2173,7 +2173,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  96i,6n,125p,2527b,2545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (15 pages, 430634 bytes).
+Output written on thesis.pdf (15 pages, 431638 bytes).
 PDF statistics:
  324 PDF objects out of 1000 (max. 8388607)
  267 compressed objects within 3 object streams
