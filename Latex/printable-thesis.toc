@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {3}Critical Success Factors}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Customer Partnership}{9}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Time To Market}{9}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Performance To Contract}{9}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Performance To Contract}{10}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Process Factory}{10}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Standardization}{10}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Waste}{10}{subsection.3.2.2}%
@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Backlog}{10}{subsection.3.3.2}%
 \contentsline {chapter}{\numberline {4}Measurement Procedures}{11}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Time to Market}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}performance to Contract}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Performance to Contract}{11}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Standardization}{11}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Waste}{11}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Service Costs}{11}{section.4.5}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  1 JUL 2026 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  1 JUL 2026 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2102,10 +2102,15 @@ Chapter 2.
 
 ]
 Chapter 3.
-) (./chapters/4_MeasurementProcedures.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9] [10]
+LaTeX Warning: Reference `cap:goals' on page 9 undefined on input line 18.
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+) (./chapters/4_MeasurementProcedures.tex [10]
 Chapter 4.
 ) (./chapters/5_Conclusions.tex [11
 
@@ -2146,16 +2151,20 @@ Package biblatex Warning: No driver for 'paper'.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'printable-thesis.run.xml'.
 \openout1 = `printable-thesis.run.xml'.
 
  ) ) ) 
 Here is how much of TeX's memory you used:
- 39598 strings out of 467533
- 728930 string characters out of 5422138
- 1693571 words of memory out of 5000000
- 67770 multiletter control sequences out of 15000+600000
- 649124 words of font info for 146 fonts, out of 8000000 for 9000
+ 39610 strings out of 467533
+ 729080 string characters out of 5422138
+ 1693629 words of memory out of 5000000
+ 67772 multiletter control sequences out of 15000+600000
+ 649414 words of font info for 151 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  102i,6n,128p,2562b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2237,7 +2246,7 @@ pdfTeX warning (dest): name{lof.0} has been referenced but does not exist, repla
 pdfTeX warning (dest): name{tableofcontents.0} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on printable-thesis.pdf (21 pages, 429530 bytes).
+Output written on printable-thesis.pdf (21 pages, 432759 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  213 compressed objects within 3 object streams
