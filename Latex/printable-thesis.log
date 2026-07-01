@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  1 JUL 2026 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  1 JUL 2026 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2080,32 +2080,35 @@ Package pdftex.def Info: images/unipd-logo.png  used on input line 22.
 
  [4
 
-]) (./chapters/0_abstract.tex
+]) (./preface/0_abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) (./chapters/1_Introduction.tex [1
+) [5
 
 
+] [6
 
+] (./chapters/2_VisionGoals.tex
+Chapter 1.
+[1
 
-] [2
 
 ]
-Chapter 1.
-) (./chapters/2_VisionGoals.tex [3] [4
+<images/vision.png, id=44, 603.25375pt x 372.39125pt>
+File: images/vision.png Graphic file (type png)
+<use images/vision.png>
+Package pdftex.def Info: images/vision.png  used on input line 65.
+(pdftex.def)             Requested size: 316.80121pt x 195.55946pt.
+ [2]) (./chapters/3_CriticalSuccessFactors.tex [3 <./images/vision.png>] [4
 
 ]
 Chapter 2.
-[5]) (./chapters/3_CriticalSuccessFactors.tex [6] [7] [8
 
-]
-Chapter 3.
+LaTeX Warning: Reference `cap:goals' on page 5 undefined on input line 18.
 
-LaTeX Warning: Reference `cap:goals' on page 9 undefined on input line 18.
-
-[9]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
@@ -2113,20 +2116,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
 Underfull \vbox (badness 1472) has occurred while \output is active []
 
- [10]) (./chapters/4_MeasurementProcedures.tex [11] [12
+ [6]) (./chapters/4_MeasurementProcedures.tex [7] [8
+
+]
+Chapter 3.
+) (./chapters/5_Conclusions.tex [9] [10
 
 ]
 Chapter 4.
-) (./chapters/5_Conclusions.tex [13] [14
-
-]
-Chapter 5.
-) [15] [16
+) [11] [12
 
 ]
 No file printable-thesis.acr.
 No file printable-thesis.gls.
-(./appendix/bibliography.tex [17] [18
+(./appendix/bibliography.tex [13] [14
 
 ]
 
@@ -2147,7 +2150,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package biblatex Warning: No driver for 'paper'.
 (biblatex)                Using fallback driver on input line 10.
 
-) [19
+) [15
 
 ] (./printable-thesis.aux)
  ***********
@@ -2163,63 +2166,33 @@ Package logreq Info: Writing requests to 'printable-thesis.run.xml'.
 
  ) ) ) 
 Here is how much of TeX's memory you used:
- 39618 strings out of 467533
- 729174 string characters out of 5422138
- 1693635 words of memory out of 5000000
- 67774 multiletter control sequences out of 15000+600000
- 649627 words of font info for 154 fonts, out of 8000000 for 9000
+ 39632 strings out of 467533
+ 729337 string characters out of 5422138
+ 1694629 words of memory out of 5000000
+ 67783 multiletter control sequences out of 15000+600000
+ 651311 words of font info for 159 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  102i,6n,128p,2562b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{appendix*.9} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.6} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{appendix*.10} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not exist, replaced by a fixed one
-
-
 pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist, replaced by a fixed one
@@ -2228,7 +2201,28 @@ pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist,
 pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, replaced by a fixed one
 
 
+pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist, replaced by a fixed one
@@ -2237,7 +2231,16 @@ pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist,
 pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, replaced by a fixed one
 
 
+pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.8} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{lot.0} has been referenced but does not exist, replaced by a fixed one
@@ -2248,11 +2251,11 @@ pdfTeX warning (dest): name{lof.0} has been referenced but does not exist, repla
 
 pdfTeX warning (dest): name{tableofcontents.0} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on printable-thesis.pdf (23 pages, 439104 bytes).
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on printable-thesis.pdf (21 pages, 501005 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
+ 289 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
  26 named destinations out of 1000 (max. 500000)
- 47842 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 51943 words of extra memory for PDF output out of 61914 (max. 10000000)
 
