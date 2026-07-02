@@ -1,0 +1,17 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'thesis.blg'
+[46] biber:342> INFO - === Thu Jul  2, 2026, 18:19:37
+[55] Biber.pm:421> INFO - Reading 'thesis.bcf'
+[96] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[106] Biber.pm:4487> INFO - Processing section 0
+[112] Biber.pm:4678> INFO - Looking for bibtex file 'appendix/bibliography.bib' for section 0
+[112] bibtex.pm:1713> INFO - LaTeX decoding ...
+[114] bibtex.pm:1519> INFO - Found BibTeX data source 'appendix/bibliography.bib'
+[144] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[144] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[144] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[144] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[149] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[150] bbl.pm:779> INFO - Output to thesis.bbl
+[150] Biber.pm:132> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[151] Biber.pm:134> INFO - WARNINGS: 1

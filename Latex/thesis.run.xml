@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>printable-thesis.bcf</file>
+      <file>thesis.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>printable-thesis.bbl</file>
+      <file>thesis.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -59,25 +59,26 @@
       <file>verbose-ibid.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
+      <file>italian.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>printable-thesis</infile>
+      <infile>thesis</infile>
     </cmdline>
     <input>
-      <file>printable-thesis.bcf</file>
+      <file>thesis.bcf</file>
     </input>
     <output>
-      <file>printable-thesis.bbl</file>
+      <file>thesis.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>printable-thesis.bbl</file>
+      <file>thesis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>printable-thesis.bcf</file>
+      <file>thesis.bcf</file>
     </requires>
     <requires type="editable">
       <file>appendix/bibliography.bib</file>
