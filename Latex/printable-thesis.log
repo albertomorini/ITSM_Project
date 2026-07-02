@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  1 JUL 2026 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  2 JUL 2026 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1854,7 +1854,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 Package LayAureo Warning: Textwidth as whith the "11pt" class option.
 
-)) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip106
 \f@nch@offset@elh=\skip107
@@ -1871,7 +1871,12 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip118
 \f@nch@widthR=\skip119
 \@temptokenb=\toks46
-) (./config/thesis-config.tex (./config/variables.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks47
+\minrowclearance=\skip120
+\rownum=\count509
+)) (./config/thesis-config.tex (./config/variables.tex
 
 LaTeX Info: File `printable-thesis.xmpdata' already exists on the system.
             Not generating it from this source.
@@ -1916,8 +1921,8 @@ File: lstlang3.sty 2025/11/14 1.11b listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
-\c@riskcounter=\count509
-\c@usecasecounter=\count510
+\c@riskcounter=\count510
+\c@usecasecounter=\count511
 ) (./structure.tex
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1946,17 +1951,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count511
+\scratchcounter=\count512
 \scratchdimen=\dimen288
 \scratchbox=\box68
-\nofMPsegments=\count512
-\nofMParguments=\count513
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count514
+\nofMPsegments=\count513
+\nofMParguments=\count514
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count515
 \MPscratchDim=\dimen289
-\MPnumerator=\count515
-\makeMPintoPDFobject=\count516
-\everyMPtoPDFconversion=\toks48
+\MPnumerator=\count516
+\makeMPintoPDFobject=\count517
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1978,7 +1983,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count517
+\c@lstlisting=\count518
 LaTeX Info: Redefining \microtypecontext on input line 10.
 Package microtype Info: Applying patch `item' on input line 10.
 Package microtype Info: Applying patch `toc' on input line 10.
@@ -2090,7 +2095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 ] [6
 
-] (./chapters/2_VisionGoals.tex
+] (./chapters/2_MissionGoals.tex
 Chapter 1.
 [1
 
@@ -2109,27 +2114,30 @@ Chapter 2.
 LaTeX Warning: Reference `cap:goals' on page 5 undefined on input line 18.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
 Underfull \vbox (badness 1472) has occurred while \output is active []
 
- [6]) (./chapters/4_MeasurementProcedures.tex [7] [8
+ [6] [7]) (./chapters/4_MeasurementProcedures.tex [8] [9] [10
 
 ]
 Chapter 3.
-) (./chapters/5_Conclusions.tex [9] [10
+
+LaTeX Warning: Reference `subs:performance2contract' on page 11 undefined on input line 34.
+
+) (./chapters/5_Conclusions.tex [11] [12
 
 ]
 Chapter 4.
-) [11] [12
+) [13] [14
 
 ]
 No file printable-thesis.acr.
 No file printable-thesis.gls.
-(./appendix/bibliography.tex [13] [14
+(./appendix/bibliography.tex [15] [16
 
 ]
 
@@ -2150,7 +2158,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package biblatex Warning: No driver for 'paper'.
 (biblatex)                Using fallback driver on input line 10.
 
-) [15
+) [17
 
 ] (./printable-thesis.aux)
  ***********
@@ -2166,15 +2174,15 @@ Package logreq Info: Writing requests to 'printable-thesis.run.xml'.
 
  ) ) ) 
 Here is how much of TeX's memory you used:
- 39632 strings out of 467533
- 729337 string characters out of 5422138
- 1694629 words of memory out of 5000000
- 67783 multiletter control sequences out of 15000+600000
- 651311 words of font info for 159 fonts, out of 8000000 for 9000
+ 39741 strings out of 467533
+ 731029 string characters out of 5422138
+ 1697177 words of memory out of 5000000
+ 67882 multiletter control sequences out of 15000+600000
+ 651485 words of font info for 162 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 102i,6n,128p,2562b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,128p,2562b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{appendix*.10} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{appendix*.11} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, replaced by a fixed one
@@ -2252,10 +2260,10 @@ pdfTeX warning (dest): name{lof.0} has been referenced but does not exist, repla
 pdfTeX warning (dest): name{tableofcontents.0} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on printable-thesis.pdf (21 pages, 501005 bytes).
+Output written on printable-thesis.pdf (23 pages, 510014 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
+ 295 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
  26 named destinations out of 1000 (max. 500000)
  51943 words of extra memory for PDF output out of 61914 (max. 10000000)
 
