@@ -6,34 +6,87 @@
 %   Savas
 
 \begin{table}[h]
-\centering
-\renewcommand{\arraystretch}{1.6}
-\setlength{\arrayrulewidth}{0.6pt}
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
 
-\begin{tabularx}{\textwidth}{|X|X|}
-\hline
-\multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Measurement Card}}} \\ \hline
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Measurement Card}}} \\ \hline
 
-\rowcolor{mclightgray}
-\textbf{Description} & \textbf{Unit} \\ \hline
-What is the metric about &
-What is the unit of the metric (percentage, hours, number, etc.) \\ \hline
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    What is the metric about &
+    What is the unit of the metric (percentage, hours, number, etc.) \\ \hline
 
-\rowcolor{mclightgray}
-\textbf{Formula} & \textbf{Frequency} \\ \hline
-What is the formula to calculate the metric &
-With what interval is this metric measured and reported \\ \hline
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    What is the formula to calculate the metric &
+    With what interval is this metric measured and reported \\ \hline
 
-\end{tabularx}
+    \end{tabularx}
 
-\caption{Measurement Card Template}
-\label{tab:measurement_card}
+    \caption{Measurement Card Template}
+    \label{tab:measurement_card}
 \end{table}
 
 \section{Performance to Contract} 
-Explained in subsection \ref{subs:performance2contract}.
-
 %   Alberto
+Explained in subsection \ref{subs:performancetocontract}.
+
+\subsection{SLA Compliance Rate}
+
+SLA Compliance Rate can provide a measure whether contractual service levels are respected, thus to accomplish the agreements made with customers or stakeholders and therefore maintaint the quality of the service provided.
+
+
+For this KPI different process are affected, the first is the ``Service Level Management'', ``Incident Management'', Request 
+
+For this KPI the process affected are:
+\begin{itemize}
+    \item \textbf{Service Level Management}: to ensure an opportune level of service provided that should ensure what agreed in SLA
+    \item \textbf{Incident Management}: to ensure that eventual incident is correctly resolved within time and quality specified.
+    \item \textbf{Request Fulfillment}: to fulfill customer and user requests according the agreed specifications
+    \item \textbf{Availabiliy Management}: to ensure the service is available for the user and the downtime dued to incidents or maintenance do not take more than necessary resources (time and costs) 
+    \item \textbf{Capacity Management}: to monitor that the service fulfill the capacity and performance designed.
+    \item \textbf{Supplier Management}: whenever a process involves suppliers and third part activities not strictly dependent by the organization.
+\end{itemize}
+
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{SLA Compliance Rate}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    Percentage of request solved respecting SLAs specification, where is desired a high percentage. &
+    Percentage. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    \[
+        \frac{\text{Requests solved within SLA}}{\text{Total requests}} \times 100
+    \]
+     &
+    Monthly. \\ \hline
+
+    \end{tabularx}
+
+    \caption{Measurement - SLA Compliance Rate}
+    \label{tab:measurement_SLAComplianceRate}
+\end{table}
+
+% Percentage of SLA targets achieved :: availability, response time, resolution time | want to increase
+
+\subsection{Mean restoring service time}
+
+
+% ---------------------------------------------------------
+
 
 \section{Standardization}
 %   Savas
@@ -41,12 +94,150 @@ Explained in subsection \ref{subs:performance2contract}.
 \section{Waste}
 %   Alberto
 
+
+
+% Change Enablement (Change Management)
+% Release Management
+% Service Validation & Testing
+% Problem Management
+% Continual Improvement
+
+\subsection{Repeated Incident rate}
+
+To measure how many incident occur dued to problems that are not already been resolved.\\
+ITSM process involved are
+
+\begin{itemize}
+    \item \textbf{Incident Management} which is accountable to register the incident and potential workaround used in restoring the service
+    \item \textbf{Problem Management} which is responsable to resolve the problem that cause the incident or the defect of the service
+    \item \textbf{Knowledge Management} thus to inform the organization of known errors
+    \item \textbf{Continual Improvement} in order to increase the value overral the performance and quality of the service
+\end{itemize}
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Repeated Incident Rate}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    A high value indicate a wasted effort since the cause of the incident has not been eliminated. &
+    Percentage. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+      \[
+        \frac{\text{Recurring incidents}}{\text{Total incidents}} \times 100
+    \]
+
+     &
+    Weekly/Monthly. \\ \hline
+
+    \end{tabularx}
+
+    \caption{Waste - Repeated Incident Rate}
+    \label{tab:measurement_NUMofOpenIncident}
+\end{table}
+
+
+
+
+\subsection{Rework rate}
+
+
+For instance, since the Bank aims to increase revenue from its Internet Banking services, poor user experience caused by application malfunctions or insufficient service quality may reduce customer engagement. At the same time, these defects can represent significant rework for both external suppliers and the internal design and development teams; increasing costs and delaying service improvements, reducing the overall efficiency of the Service Value Chain.
+
+The rate of the rework activities serve a strong KPI for user engagement and involves many process of IT Service Management, main of them are:
+\begin{itemize}
+    \item \textbf{Change Enablement}: since every change request must be valuated and analyzed.
+    \item \textbf{Release Management}: a rework require a further deployment of the new version of the service.
+    \item \textbf{Service Validation and Testing}: in order to check that the service meets the desired customer requests.
+\end{itemize}
+
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Rework Rate}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    indicate how many activities and work item needs a rework. Higher value indicated inefficiency and waste. &
+    Percentage. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+      \[
+        \frac{\text{Work task reopened}}{\text{Total completed work task}} \times 100
+    \]
+
+     &
+    Montly. \\ \hline
+
+    \end{tabularx}
+
+    \caption{Waste - Rework Rate}
+    \label{tab:measurement_NUMofOpenIncident}
+\end{table}
+
+
+
+
+
+
 % Within a Process Factory model, waste reduction relies on standardizing processes, automating repetitive activities, clearly defining responsibilities, and continuously monitoring performance through KPIs. Metrics such as **Change Success Rate**, **Mean Time to Restore Service (MTRS)**, **Incident Recurrence Rate**, **First Contact Resolution**, **Knowledge Article Reuse Rate**, and **Average Change Lead Time** enable management to identify where waste occurs and measure the effectiveness of improvement initiatives.
 
 
 
+% ---------------------------------------------------------
+
 \section{Service Costs}
-%   Alberto
+%   Savas
 
 \section{Backlog}
-%   Savas
+%   Alberto
+Number of open incidents, problems, service requests and change requests awaiting completion | decrease
+
+Exists several backlog solutions to implement thus to resolve problems like the number of open incidents, problems, service requests and change requests awaiting approval., thus to resolve problems explained in the respective section~\ref{subs:backlog}
+
+
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Number of open incident}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    Number of unresolved incidents older than SLA. &
+    Number of tickets. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    \[
+     \sum_{\substack{i=0 \\ \text{ticket}_i=\text{open} \\ \text{time}_i>\text{SLA}}}^{n} x_i
+    \]
+
+    With ``n'' as total number of ticket within the frequency preferred.
+     &
+    Daily/Weekly/Montly. \\ \hline
+
+    \end{tabularx}
+
+    \caption{Measurement - SLA Compliance Rate}
+    \label{tab:measurement_NUMofOpenIncident}
+\end{table}
+
+
