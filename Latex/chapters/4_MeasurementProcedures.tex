@@ -5,31 +5,6 @@
 \section{Time to Market}
 %   Savas
 
-\begin{table}[h]
-    \centering
-    \renewcommand{\arraystretch}{1.6}
-    \setlength{\arrayrulewidth}{0.6pt}
-
-    \begin{tabularx}{\textwidth}{|X|X|}
-    \hline
-    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Measurement Card}}} \\ \hline
-
-    \rowcolor{mclightgray}
-    \textbf{Description} & \textbf{Unit} \\ \hline
-    What is the metric about &
-    What is the unit of the metric (percentage, hours, number, etc.) \\ \hline
-
-    \rowcolor{mclightgray}
-    \textbf{Formula} & \textbf{Frequency} \\ \hline
-    What is the formula to calculate the metric &
-    With what interval is this metric measured and reported \\ \hline
-
-    \end{tabularx}
-
-    \caption{Measurement Card Template}
-    \label{tab:measurement_card}
-\end{table}
-
 \section{Performance to Contract} 
 %   Alberto
 Explained in subsection \ref{subs:performancetocontract}.
@@ -94,110 +69,100 @@ For this KPI the process affected are:
 \section{Waste}
 %   Alberto
 
+    \subsection{Repeated Incident rate}
+
+    To measure how many incident occur dued to problems that are not already been resolved.\\
+    ITSM process involved are
+
+    \begin{itemize}
+        \item \textbf{Incident Management} which is accountable to register the incident and potential workaround used in restoring the service
+        \item \textbf{Problem Management} which is responsable to resolve the problem that cause the incident or the defect of the service
+        \item \textbf{Knowledge Management} thus to inform the organization of known errors
+        \item \textbf{Continual Improvement} in order to increase the value overral the performance and quality of the service
+    \end{itemize}
+
+    \begin{table}[h]
+        \centering
+        \renewcommand{\arraystretch}{1.6}
+        \setlength{\arrayrulewidth}{0.6pt}
+
+        \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Repeated Incident Rate}}} \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Description} & \textbf{Unit} \\ \hline
+        A high value indicate a wasted effort since the cause of the incident has not been eliminated. &
+        Percentage. \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Formula} & \textbf{Frequency} \\ \hline
+        \[
+            \frac{\text{Recurring incidents}}{\text{Total incidents}} \times 100
+        \]
+
+        &
+        Weekly/Monthly. \\ \hline
+
+        \end{tabularx}
+
+        \caption{Waste - Repeated Incident Rate}
+        \label{tab:measurement_NUMofOpenIncident}
+    \end{table}
 
 
-% Change Enablement (Change Management)
-% Release Management
-% Service Validation & Testing
-% Problem Management
-% Continual Improvement
-
-\subsection{Repeated Incident rate}
-
-To measure how many incident occur dued to problems that are not already been resolved.\\
-ITSM process involved are
-
-\begin{itemize}
-    \item \textbf{Incident Management} which is accountable to register the incident and potential workaround used in restoring the service
-    \item \textbf{Problem Management} which is responsable to resolve the problem that cause the incident or the defect of the service
-    \item \textbf{Knowledge Management} thus to inform the organization of known errors
-    \item \textbf{Continual Improvement} in order to increase the value overral the performance and quality of the service
-\end{itemize}
-
-\begin{table}[h]
-    \centering
-    \renewcommand{\arraystretch}{1.6}
-    \setlength{\arrayrulewidth}{0.6pt}
-
-    \begin{tabularx}{\textwidth}{|X|X|}
-    \hline
-    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Repeated Incident Rate}}} \\ \hline
-
-    \rowcolor{mclightgray}
-    \textbf{Description} & \textbf{Unit} \\ \hline
-    A high value indicate a wasted effort since the cause of the incident has not been eliminated. &
-    Percentage. \\ \hline
-
-    \rowcolor{mclightgray}
-    \textbf{Formula} & \textbf{Frequency} \\ \hline
-      \[
-        \frac{\text{Recurring incidents}}{\text{Total incidents}} \times 100
-    \]
-
-     &
-    Weekly/Monthly. \\ \hline
-
-    \end{tabularx}
-
-    \caption{Waste - Repeated Incident Rate}
-    \label{tab:measurement_NUMofOpenIncident}
-\end{table}
+    \subsection{Rework rate}
 
 
+    For instance, since the Bank aims to increase revenue from its Internet Banking services, poor user experience caused by application malfunctions or insufficient service quality may reduce customer engagement. At the same time, these defects can represent significant rework for both external suppliers and the internal design and development teams; increasing costs and delaying service improvements, reducing the overall efficiency of the Service Value Chain.
+
+    The rate of the rework activities serve a strong KPI for user engagement and involves many process of IT Service Management, main of them are:
+    \begin{itemize}
+        \item \textbf{Change Enablement}: since every change request must be valuated and analyzed.
+        \item \textbf{Release Management}: a rework require a further deployment of the new version of the service.
+        \item \textbf{Service Validation and Testing}: in order to check that the service meets the desired customer requests.
+    \end{itemize}
 
 
-\subsection{Rework rate}
+    \begin{table}[h]
+        \centering
+        \renewcommand{\arraystretch}{1.6}
+        \setlength{\arrayrulewidth}{0.6pt}
 
+        \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Rework Rate}}} \\ \hline
 
-For instance, since the Bank aims to increase revenue from its Internet Banking services, poor user experience caused by application malfunctions or insufficient service quality may reduce customer engagement. At the same time, these defects can represent significant rework for both external suppliers and the internal design and development teams; increasing costs and delaying service improvements, reducing the overall efficiency of the Service Value Chain.
+        \rowcolor{mclightgray}
+        \textbf{Description} & \textbf{Unit} \\ \hline
+        indicate how many activities and work item needs a rework. Higher value indicated inefficiency and waste. &
+        Percentage. \\ \hline
 
-The rate of the rework activities serve a strong KPI for user engagement and involves many process of IT Service Management, main of them are:
-\begin{itemize}
-    \item \textbf{Change Enablement}: since every change request must be valuated and analyzed.
-    \item \textbf{Release Management}: a rework require a further deployment of the new version of the service.
-    \item \textbf{Service Validation and Testing}: in order to check that the service meets the desired customer requests.
-\end{itemize}
+        \rowcolor{mclightgray}
+        \textbf{Formula} & \textbf{Frequency} \\ \hline
+        \[
+            \frac{\text{Work task reopened}}{\text{Total completed work task}} \times 100
+        \]
 
+        &
+        Montly. \\ \hline
 
-\begin{table}[h]
-    \centering
-    \renewcommand{\arraystretch}{1.6}
-    \setlength{\arrayrulewidth}{0.6pt}
+        \end{tabularx}
 
-    \begin{tabularx}{\textwidth}{|X|X|}
-    \hline
-    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Rework Rate}}} \\ \hline
-
-    \rowcolor{mclightgray}
-    \textbf{Description} & \textbf{Unit} \\ \hline
-    indicate how many activities and work item needs a rework. Higher value indicated inefficiency and waste. &
-    Percentage. \\ \hline
-
-    \rowcolor{mclightgray}
-    \textbf{Formula} & \textbf{Frequency} \\ \hline
-      \[
-        \frac{\text{Work task reopened}}{\text{Total completed work task}} \times 100
-    \]
-
-     &
-    Montly. \\ \hline
-
-    \end{tabularx}
-
-    \caption{Waste - Rework Rate}
-    \label{tab:measurement_NUMofOpenIncident}
-\end{table}
+        \caption{Waste - Rework Rate}
+        \label{tab:measurement_NUMofOpenIncident}
+    \end{table}
 
 
 
 
 
 
-% Within a Process Factory model, waste reduction relies on standardizing processes, automating repetitive activities, clearly defining responsibilities, and continuously monitoring performance through KPIs. Metrics such as **Change Success Rate**, **Mean Time to Restore Service (MTRS)**, **Incident Recurrence Rate**, **First Contact Resolution**, **Knowledge Article Reuse Rate**, and **Average Change Lead Time** enable management to identify where waste occurs and measure the effectiveness of improvement initiatives.
+    % Within a Process Factory model, waste reduction relies on standardizing processes, automating repetitive activities, clearly defining responsibilities, and continuously monitoring performance through KPIs. Metrics such as **Change Success Rate**, **Mean Time to Restore Service (MTRS)**, **Incident Recurrence Rate**, **First Contact Resolution**, **Knowledge Article Reuse Rate**, and **Average Change Lead Time** enable management to identify where waste occurs and measure the effectiveness of improvement initiatives.
 
 
 
-% ---------------------------------------------------------
+    % ---------------------------------------------------------
 
 \section{Service Costs}
 %   Savas
@@ -207,7 +172,6 @@ The rate of the rework activities serve a strong KPI for user engagement and inv
 Number of open incidents, problems, service requests and change requests awaiting completion | decrease
 
 Exists several backlog solutions to implement thus to resolve problems like the number of open incidents, problems, service requests and change requests awaiting approval., thus to resolve problems explained in the respective section~\ref{subs:backlog}
-
 
 
 \begin{table}[h]
@@ -241,3 +205,67 @@ Exists several backlog solutions to implement thus to resolve problems like the 
 \end{table}
 
 
+
+
+
+% KPI 1 — Backlog Aging ----> conflict in waste?
+
+% Metric
+% Average age of unresolved tickets.
+
+% Processes
+
+% Incident Management
+% Problem Management
+% Request Fulfilment
+% Change Enablement
+
+% Measurement Card
+
+% Field	Value
+% Description	Average number of days that unresolved tickets remain in the backlog.
+% Unit	Days
+% Formula	Sum of age of all open tickets ÷ Number of open tickets
+% Frequency	Daily measurement, Weekly report
+----------------
+
+% KPI 4 — Backlog Clearance Rate
+
+% Metric
+
+% Percentage of backlog resolved during the reporting period.
+
+% Processes
+
+% Incident Management
+% Problem Management
+% Request Fulfilment
+
+% Measurement Card
+
+% Field	Value
+% Description	Measures the team's effectiveness in reducing outstanding work.
+% Unit	%
+% Formula	(Tickets closed during period ÷ Tickets in backlog at start of period) × 100
+% Frequency	Weekly
+
+% ------------
+
+% Priority Backlog Distribution
+
+% Metric
+
+% Percentage of backlog by priority level.
+
+% Processes
+
+% Incident Management
+% Service Level Management
+
+% Measurement Card
+
+% Field	Value
+% Description	Tracks backlog distribution across priority levels to ensure high-priority work receives immediate attention.
+% Unit	%
+% Formula	(Tickets of each priority ÷ Total backlog) × 100
+% Frequency	Daily

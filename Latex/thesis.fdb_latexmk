@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber thesis"] 1783027524.52785 "thesis.bcf" "thesis.bbl" "thesis" 1783029981.91627 0
+["biber thesis"] 1783027524.52785 "thesis.bcf" "thesis.bbl" "thesis" 1783102929.20785 0
   "appendix/bibliography.bib" 1782658803.90792 1143 82d13f794dee82982a068b963f6d9d88 ""
-  "thesis.bcf" 1783029981.7625 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
+  "thesis.bcf" 1783102929.04468 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1783029980.2232 "/home/alby/uni/ITSM/ITSM_Project/Latex/thesis.tex" "thesis.pdf" "thesis" 1783029981.91653 0
+["pdflatex"] 1783102927.34892 "/home/alby/uni/ITSM/ITSM_Project/Latex/thesis.tex" "thesis.pdf" "thesis" 1783102929.20812 0
   "/etc/texmf/web2c/texmf.cnf" 1778430345.14703 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/alby/uni/ITSM/ITSM_Project/Latex/thesis.tex" 1783009148.87748 316 9b37045be5fa0b9ed1089a0f8c26836b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -236,7 +236,7 @@
   "appendix/glossary-entries.tex" 1782658660.03783 1560 6611ffdad3e2e4c0954e7aea4f846ed6 ""
   "chapters/2_MissionGoals.tex" 1783009175.42778 6639 b93137164407e3aaf500deff450c84a7 ""
   "chapters/3_CriticalSuccessFactors.tex" 1783026883.32822 14350 3d6fbf083275c377e3cf984eb8184c90 ""
-  "chapters/4_MeasurementProcedures.tex" 1783029978.10496 8645 37fa7000948b0841e36a2e7d2741388a ""
+  "chapters/4_MeasurementProcedures.tex" 1783102927.13281 9280 12bcc7c1d133ed87191cae28acfa9c52 ""
   "chapters/5_Conclusions.tex" 1782918984.73273 91 37d544723e636dc4579f917251188f7f ""
   "config/packages.tex" 1783006864.2181 2492 dbb1847e4aece8abbb2d69ad9c9b8a91 ""
   "config/thesis-config.tex" 1782745198.66995 5500 0c4358aaf85cb45b42e8b2c8fc0f7039 ""
@@ -244,21 +244,21 @@
   "images/organization_organigram.png" 1783007246.72839 59887 5498bbb167c005b31b7be6611f08423f ""
   "images/unipd-logo.png" 1707649943 67664 84735a93690b9fb71a069fcaad11490a ""
   "images/vision.png" 1782935998.6187 41854 cb1b6f7f1f19f93887714ae5f11b588f ""
-  "pdfa.xmpi" 1783029980.55419 5536 da7d3c3dce25db0f3aac36da5fce5d55 "pdflatex"
+  "pdfa.xmpi" 1783102927.75047 5536 ba08be707f69cba838d1dac0f7e4a0fd "pdflatex"
   "preface/0_abstract.tex" 1782935688.16292 1187 36a4fd6d537a4f59ed7eeecdc8cf6887 ""
   "preface/copyright.tex" 1782657436.1243 159 77db181c63f50acd22d8bb6041a453dc ""
   "preface/table-of-contents.tex" 1707649943 515 8f86ac5c47278f1123f1c245568e8507 ""
   "preface/title-page.tex" 1782745185.42295 1485 324f164b0a88802a0d4eebcd618703dd ""
   "structure.tex" 1783007085.64302 1183 2650b74c4268e7363170d4219c421228 ""
   "thesis.acr" 0 -1 0 ""
-  "thesis.aux" 1783029981.75716 16542 5d10c54e922654196e73e752511badca "pdflatex"
+  "thesis.aux" 1783102929.03768 16306 bddae13e4354a181c8727ad25de26afa "pdflatex"
   "thesis.bbl" 1783027525.14787 6385 6b946c501a4e0447aada27e6b13404af "biber thesis"
   "thesis.gls" 0 -1 0 ""
-  "thesis.lof" 1783029981.76411 344 f92b84dc27586d550b091bc1c10eed39 "pdflatex"
-  "thesis.lot" 1783029981.76411 689 33531476f2b1749dc192ac31db967d39 "pdflatex"
-  "thesis.run.xml" 1783029981.76411 2406 6781b1e296a80bb72ec6c250f3fb1c7a "pdflatex"
+  "thesis.lof" 1783102929.04704 344 f92b84dc27586d550b091bc1c10eed39 "pdflatex"
+  "thesis.lot" 1783102929.04704 585 ff1d6e7930414524047aae391f511f8d "pdflatex"
+  "thesis.run.xml" 1783102929.04704 2406 6781b1e296a80bb72ec6c250f3fb1c7a "pdflatex"
   "thesis.tex" 1783009148.87748 316 9b37045be5fa0b9ed1089a0f8c26836b ""
-  "thesis.toc" 1783029981.76411 2121 2a0a0f6ca14fa5f8a7c4c61fbb87fb01 "pdflatex"
+  "thesis.toc" 1783102929.04704 2121 e3feebe705611d0d110f7d61c35ca495 "pdflatex"
   "thesis.xmpdata" 1782656468.35922 149 56fdd9d6f763595b659afec0aa55a7e9 ""
   (generated)
   "pdfa.xmpi"
