@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber printable-thesis"] 1783104598.36662 "printable-thesis.bcf" "printable-thesis.bbl" "printable-thesis" 1783104612.74199 0
+["biber printable-thesis"] 1783104598.36662 "printable-thesis.bcf" "printable-thesis.bbl" "printable-thesis" 1783104974.97712 0
   "appendix/bibliography.bib" 1783104481 1174 82d13f794dee82982a068b963f6d9d88 ""
-  "printable-thesis.bcf" 1783104611 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
+  "printable-thesis.bcf" 1783104974 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
   (generated)
   "printable-thesis.bbl"
   "printable-thesis.blg"
   (rewritten before read)
-["pdflatex"] 1783104608.87874 "d:/GitHub/ITSM_Project/Latex/printable-thesis.tex" "printable-thesis.pdf" "printable-thesis" 1783104612.74303 0
+["pdflatex"] 1783104970.93779 "d:/GitHub/ITSM_Project/Latex/printable-thesis.tex" "printable-thesis.pdf" "printable-thesis" 1783104974.97827 0
   "appendix/bibliography.tex" 1783104481 370 42b3b7e46cf99808cd93678c165d5ac1 ""
   "appendix/glossary-entries.tex" 1783104481 1583 6611ffdad3e2e4c0954e7aea4f846ed6 ""
   "chapters/2_MissionGoals.tex" 1783104481 6714 b93137164407e3aaf500deff450c84a7 ""
-  "chapters/3_CriticalSuccessFactors.tex" 1783104481 14499 3d6fbf083275c377e3cf984eb8184c90 ""
+  "chapters/3_CriticalSuccessFactors.tex" 1783104966 14614 abcc0e8acd81a9ebfa4993400bc3a1f7 ""
   "chapters/4_MeasurementProcedures.tex" 1783104481 9550 12bcc7c1d133ed87191cae28acfa9c52 ""
   "chapters/5_Conclusions.tex" 1783104481 94 37d544723e636dc4579f917251188f7f ""
   "config/packages.tex" 1783104481 2561 dbb1847e4aece8abbb2d69ad9c9b8a91 ""
@@ -238,20 +238,20 @@
   "images/organization_organigram.png" 1783104481 59887 077c2b46f39cab1ba22747f41a518724 ""
   "images/unipd-logo.png" 1783104481 67664 76ff6f1d0669338b4fe4b628fa33ae46 ""
   "images/vision.png" 1783104481 41854 1aa3e250bc0ece1974ee149e912ac4fe ""
-  "pdfa.xmpi" 1783104610 5557 b9d665a07f43a45f77c2bbf2ec9f673f "pdflatex"
+  "pdfa.xmpi" 1783104972 5557 48d43d1911bc775ae5f5083a8c8889cb "pdflatex"
   "preface/0_abstract.tex" 1783104481 1195 36a4fd6d537a4f59ed7eeecdc8cf6887 ""
   "preface/copyright.tex" 1783104481 169 77db181c63f50acd22d8bb6041a453dc ""
   "preface/table-of-contents.tex" 1783104481 543 8f86ac5c47278f1123f1c245568e8507 ""
   "preface/title-page.tex" 1783104481 1551 324f164b0a88802a0d4eebcd618703dd ""
   "printable-thesis.acr" 0 -1 0 ""
-  "printable-thesis.aux" 1783104611 16534 9dcdbc28d3efd570d9a5299168ae0133 "pdflatex"
+  "printable-thesis.aux" 1783104974 16534 3bc378ab90d4c62db51d3aa36222f3f7 "pdflatex"
   "printable-thesis.bbl" 1783104604 6535 6b946c501a4e0447aada27e6b13404af "biber printable-thesis"
   "printable-thesis.gls" 0 -1 0 ""
-  "printable-thesis.lof" 1783104611 344 f92b84dc27586d550b091bc1c10eed39 "pdflatex"
-  "printable-thesis.lot" 1783104611 585 13b63a6a5fb96fc1dc7600a5a7d0ef0d "pdflatex"
-  "printable-thesis.run.xml" 1783104611 2445 b0bfa3d021744c100256023076dcbe95 "pdflatex"
+  "printable-thesis.lof" 1783104974 344 f92b84dc27586d550b091bc1c10eed39 "pdflatex"
+  "printable-thesis.lot" 1783104974 585 13b63a6a5fb96fc1dc7600a5a7d0ef0d "pdflatex"
+  "printable-thesis.run.xml" 1783104974 2445 b0bfa3d021744c100256023076dcbe95 "pdflatex"
   "printable-thesis.tex" 1783104481 239 38b37fc02c39b4f18aa036cc094f458b ""
-  "printable-thesis.toc" 1783104611 2124 f87caf8a3b1d4049f67d894336912154 "pdflatex"
+  "printable-thesis.toc" 1783104974 2124 f87caf8a3b1d4049f67d894336912154 "pdflatex"
   "printable-thesis.xmpdata" 1783104481 176 3193c4b85ed761979cb48d30ffbdd13d ""
   "structure.tex" 1783104481 1217 2650b74c4268e7363170d4219c421228 ""
   "thesis.tex" 1783104481 333 9b37045be5fa0b9ed1089a0f8c26836b ""
