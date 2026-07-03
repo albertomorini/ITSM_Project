@@ -547,11 +547,6 @@ INPUT ./images/organization_organigram.png
 INPUT ./images/organization_organigram.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm
-INPUT ./images/vision.png
-INPUT ./images/vision.png
-INPUT ./images/vision.png
-INPUT ./images/vision.png
-INPUT ./images/vision.png
 INPUT ./chapters/3_CriticalSuccessFactors.tex
 INPUT ./chapters/3_CriticalSuccessFactors.tex
 INPUT chapters/3_CriticalSuccessFactors.tex
