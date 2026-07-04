@@ -5,6 +5,34 @@
 \section{Time to Market}
 %   Savas
 
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Average Lead Time for Change to Production}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    Average time required for a new or modified IT service, feature or change to progress from a formal approval to successful deployment to the production. &
+    Days. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    \[
+       \frac{\sum (\text{Deployment Date} - \text{Approval Date})}{\text{\# of Successfully Implemented Changes}}
+    \]
+     &
+    Monthly reporting with quarterly trend analysis. \\ \hline
+
+    \end{tabularx}
+
+    \caption{Measurement - Average Lead Time for Change to Production}
+    \label{tab:measurement_AverageLeadTimeforChangetoProduction}
+\end{table}
+
 \section{Performance to Contract} 
 %   Alberto
 Explained in subsection \ref{subs:performancetocontract}.
