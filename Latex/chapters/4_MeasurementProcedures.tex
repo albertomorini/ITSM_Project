@@ -5,6 +5,10 @@
 \section{Time to Market}
 %   Savas
 
+Average Lead Time of Change to Production measures the average amount of time taken for a new or modified IT service, feature, or change to progress from formal approval to successful deployment into the production environment. The metric evaluates the IT department's ability to rapidly deliver business value and respond to customer and market requirements. The reduction in lead time indicates increased organizational agility, improved collaboration between business and IT, and greater effectiveness of the service delivery process. \\
+
+The Average Lead Time of Change to Production was selected because it directly measures the bank's ability to rapidly deliver new and modified digital services to customers. Considering the organization's strategic objectives of international expansion and increasing internet banking revenues, reducing the lead time of service deployment contributes directly to customer satisfaction, competitive advantage, and business agility. This metric is primarily influenced by the Service Design, Change Enablement, Release and Deployment Management, and Service Validation and Testing processes. \\
+
 \begin{table}[h]
     \centering
     \renewcommand{\arraystretch}{1.6}
@@ -83,6 +87,7 @@ For this KPI the process affected are:
     \label{tab:measurement_SLAComplianceRate}
 \end{table}
 
+
 % Percentage of SLA targets achieved :: availability, response time, resolution time | want to increase
 
 \subsection{Mean restoring service time}
@@ -93,6 +98,42 @@ For this KPI the process affected are:
 
 \section{Standardization}
 %   Savas
+
+Within the context of the bank’s transformation toward a shared service center model, standardization of IT services and underlying infrastructure constitutes a fundamental control mechanism for achieving operational efficiency, scalability, and regulatory consistency across geographically distributed units and acquired entities. Given the bank’s expansion strategy and the integration challenges arising from heterogeneous legacy systems, variations in service delivery practices, and differing national operating environments, a measurable approach to architectural conformity is required. The selected KPI—percentage of IT services complying with standardized service and enterprise infrastructure architectures—captures the degree to which services adhere to approved reference architectures, standardized deployment models (including the “virtual first” principle), and centrally governed configuration baselines. This indicator therefore functions as a proxy for industrialization maturity within the IT organization, directly reflecting the success of the Process Factory pillar in reducing structural variability, improving interoperability, and enabling controlled, repeatable service delivery across all operational domains. \\
+
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Standardization Compliance Rate}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    Percentage of request solved respecting SLAs specification, where is desired a high percentage. &
+    Percentage. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    \[
+        \frac{\text{Compliant IT services}}{\text{Total IT services assessed}} \times 100
+    \]
+     &
+    Monthly. \\ \hline
+
+    \end{tabularx}
+
+    \caption{Measurement - Standardization Compliance Rate}
+    \label{tab:measurement_StandardizationComplianceRate}
+\end{table}
+
+Overall, this KPI supports the Process Factory critical success factor by ensuring that IT services are not only delivered efficiently but are also structurally consistent, enabling economies of scale, improved governance, and reduced complexity across the bank’s global IT operations. \\
+
+%   Gonna add a bit more here
+
 
 \section{Waste}
 %   Alberto
