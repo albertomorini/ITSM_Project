@@ -113,7 +113,7 @@ Within the context of the bank’s transformation toward a shared service center
 
     \rowcolor{mclightgray}
     \textbf{Description} & \textbf{Unit} \\ \hline
-    Percentage of request solved respecting SLAs specification, where is desired a high percentage. &
+    Percentage of IT services complying with standardized service and infrastructure architectures. &
     Percentage. \\ \hline
 
     \rowcolor{mclightgray}
@@ -122,7 +122,7 @@ Within the context of the bank’s transformation toward a shared service center
         \frac{\text{Compliant IT services}}{\text{Total IT services assessed}} \times 100
     \]
      &
-    Monthly. \\ \hline
+    Quarterly, Monthly, Bianually \\ \hline
 
     \end{tabularx}
 
@@ -223,18 +223,64 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
     \end{table}
 
 
-
-
-
-
     % Within a Process Factory model, waste reduction relies on standardizing processes, automating repetitive activities, clearly defining responsibilities, and continuously monitoring performance through KPIs. Metrics such as **Change Success Rate**, **Mean Time to Restore Service (MTRS)**, **Incident Recurrence Rate**, **First Contact Resolution**, **Knowledge Article Reuse Rate**, and **Average Change Lead Time** enable management to identify where waste occurs and measure the effectiveness of improvement initiatives.
-
-
 
     % ---------------------------------------------------------
 
 \section{Service Costs}
 %   Savas
+
+Total IT Service Cost per Service (TISCS) measures the complete financial cost associated with delivering and maintaining a specific IT service over a defined period. This metric provides a service-oriented view of IT expenditure by allocating both direct and indirect costs to individual services within the IT service portfolio. Unlike traditional IT budget measurements, which focus on aggregate spending, TISCS enables management to understand the actual cost of operating each service and to identify opportunities for cost optimization and efficiency improvements.
+
+    \begin{table}[h]
+        \centering
+        \renewcommand{\arraystretch}{1.6}
+        \setlength{\arrayrulewidth}{0.6pt}
+
+        \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Total IT Service Cost per Service}}} \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Description} & \textbf{Unit} \\ \hline
+        Measures the total cost incurred by the IT organization to deliver, operate, support, and maintain an IT service during a defined reporting period. &
+        Currency per service, per reporting period \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Formula} & \textbf{Frequency} \\ \hline
+        Direct Service Costs + Allocated Indirect Costs &
+        Monthly, Quarterly, Annually. \\ \hline
+
+        \end{tabularx}
+
+        \caption{Measurement - Total IT Service Cost per Service}
+        \label{tab:measurement_ITcostperservice}
+    \end{table}
+
+in the formulation of this KPI metric, Direct Service Costs and Allocated Indirect Cost elements can be listed as following. \\
+
+\textbf{Direct Service Costs include:}
+\begin{itemize}
+    \item Infrastructure and hardware costs
+    \item Software licensing costs
+    \item Application maintenance costs
+    \item Personnel and support staff costs
+    \item Third-party supplier and outsourcing costs
+\end{itemize}
+
+\textbf{Allocated Indirect Costs include:}
+\begin{itemize}
+    \item Shared infrastructure costs
+    \item Service management tooling costs
+    \item Facilities and data center costs
+    \item Administrative overhead costs
+    \item Shared services costs
+\end{itemize}
+
+
+This metric measures the total cost incurred by the IT organization to deliver, operate, support, and maintain a specific IT service during a defined reporting period. The calculation includes all direct costs attributable to the service as well as allocated indirect costs arising from shared resources and support functions.
+
+%   Still have to fix some stuff here
 
 \section{Backlog}
 %   Alberto
