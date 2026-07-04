@@ -4,25 +4,25 @@
 \contentsline {section}{\numberline {1.1}Mission}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Goals}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Critical Success Factors}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Customer Partnership}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Customer Partnership}{4}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Time To Market}{4}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Performance To Contract}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Performance To Contract}{5}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Process Factory}{5}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Standardization}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Waste}{5}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Continuous Improvement}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Service Costs}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Backlog}{6}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Measurement Procedures}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Time to Market}{8}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Performance to Contract}{9}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}SLA Compliance Rate}{9}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Mean restoring service time}{9}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Standardization}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Waste}{10}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Repeated Incident rate}{10}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Rework rate}{11}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Service Costs}{12}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Backlog}{12}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Conclusions}{13}{chapter.4}%
-\contentsline {chapter}{Bibliography}{15}{appendix*.16}%
+\contentsline {subsection}{\numberline {2.2.2}Waste}{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Continuous Improvement}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Service Costs}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Backlog}{7}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Measurement Procedures}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Time to Market}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Performance to Contract}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}SLA Compliance Rate}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Mean restoring service time}{10}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Standardization}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Waste}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Repeated Incident rate}{11}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Rework rate}{12}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Service Costs}{13}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Backlog}{13}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Conclusions}{14}{chapter.4}%
+\contentsline {chapter}{Bibliography}{16}{appendix*.17}%
