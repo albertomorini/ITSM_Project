@@ -46,16 +46,19 @@ Explained in subsection \ref{subs:performancetocontract}.
 SLA Compliance Rate can provide a measure whether contractual service levels are respected, thus to accomplish the agreements made with customers or stakeholders and therefore maintaint the quality of the service provided.
 
 
-For this KPI different process are affected, the first is the ``Service Level Management'', ``Incident Management'', Request 
-
 For this KPI the process affected are:
 \begin{itemize}
-    \item \textbf{Service Level Management}: to ensure an opportune level of service provided that should ensure what agreed in SLA
-    \item \textbf{Incident Management}: to ensure that eventual incident is correctly resolved within time and quality specified.
-    \item \textbf{Request Fulfillment}: to fulfill customer and user requests according the agreed specifications
-    \item \textbf{Availabiliy Management}: to ensure the service is available for the user and the downtime dued to incidents or maintenance do not take more than necessary resources (time and costs) 
-    \item \textbf{Capacity Management}: to monitor that the service fulfill the capacity and performance designed.
-    \item \textbf{Supplier Management}: whenever a process involves suppliers and third part activities not strictly dependent by the organization.
+    \item \textbf{Service Level Management}: to ensure an opportune level of service provided that should ensure what agreed in SLA.
+    \item \textbf{Incident Management}: to ensure that eventual incident are resolved and the serivce restored to its normal operativity and agreed quality.
+    \item \textbf{Request Fulfillment}: to gather and fulfill customer and user requests and making it sure to accomplish them
+    \item \textbf{Availabiliy Management}: to ensure the service is available for the user and the downtime dued to incidents or maintenance do not take more than necessary resources (time and costs).\\ 
+    The availability of the service can be expressed via the forumla: 
+    \[
+        \text{Availabiliy} = \frac{\text{AST - downtime}}{AST} \times 100
+    \]
+    Where ``AST'' indicate the Agreed Service Time, which measure the expectation of the time that service is available; downtime should be included within this value.
+    \item \textbf{Capacity Management}: to monitor and ensure that service achieve agreed and exprected performance, satisfying current and future demand in a cost-eﬀective way.
+    \item \textbf{Supplier Management}: To ensure that the organization`s suppliers and their performances are managed appropriately to support the seamless provision of quality products and services.
 \end{itemize}
 
 
@@ -88,10 +91,7 @@ For this KPI the process affected are:
 \end{table}
 
 
-% Percentage of SLA targets achieved :: availability, response time, resolution time | want to increase
-
 \subsection{Mean restoring service time}
-
 
 % ---------------------------------------------------------
 
@@ -138,16 +138,16 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
 \section{Waste}
 %   Alberto
 
-    \subsection{Repeated Incident rate}
+\subsection{Repeated Incident rate}
 
     To measure how many incident occur dued to problems that are not already been resolved.\\
-    ITSM process involved are
+    ITSM process involved are:
 
     \begin{itemize}
         \item \textbf{Incident Management} which is accountable to register the incident and potential workaround used in restoring the service
-        \item \textbf{Problem Management} which is responsable to resolve the problem that cause the incident or the defect of the service
-        \item \textbf{Knowledge Management} thus to inform the organization of known errors
-        \item \textbf{Continual Improvement} in order to increase the value overral the performance and quality of the service
+        \item \textbf{Problem Management} to identify the potential and actual causes of indicents (or known errors) and reduce the probability of the impacts by providing the solutions and workarounds.
+        \item \textbf{Knowledge Management} that maintain and improve the eﬀective, efficient, convenient use of information and knowledge across the organization
+        \item \textbf{Continual Improvement} in order to increase the value overall the performance and quality of the service
     \end{itemize}
 
     \begin{table}[h]
@@ -176,24 +176,29 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
         \end{tabularx}
 
         \caption{Waste - Repeated Incident Rate}
-        \label{tab:measurement_NUMofOpenIncident}
+        \label{tab:measurement_RepeatedIncident}
     \end{table}
 
 
-    \subsection{Rework rate}
+\subsection{Rework rate}
 
 
-    For instance, since the Bank aims to increase revenue from its Internet Banking services, poor user experience caused by application malfunctions or insufficient service quality may reduce customer engagement. At the same time, these defects can represent significant rework for both external suppliers and the internal design and development teams; increasing costs and delaying service improvements, reducing the overall efficiency of the Service Value Chain.
+    For instance, since the Bank aims to increase revenue from its Internet Banking services, poor user experience caused by application malfunctions or insufficient service quality may reduce customer engagement. At the same time, these defects can represent significant rework for both external suppliers and the internal design and development teams; increasing costs and delaying service improvements, reducing the overall efficiency of the Service Value Chain (SVC).
 
     The rate of the rework activities serve a strong KPI for user engagement and involves many process of IT Service Management, main of them are:
     \begin{itemize}
-        \item \textbf{Change Enablement}: since every change request must be valuated and analyzed.
-        \item \textbf{Release Management}: a rework require a further deployment of the new version of the service.
+        \item \textbf{Change Enablement}: which have to maximize the number of successful service and product changes by:
+        \begin{enumerate}
+            \item ensuring that risks have been properly assessed
+            \item authorizing changes to proceed
+            \item managing the change schedule
+        \end{enumerate}
         \item \textbf{Service Validation and Testing}: in order to check that the service meets the desired customer requests.
+        \item \textbf{Release Management}: that has the purpose of moving new or changed hardware, software,documentation,processes or any other component to live environments. In this case, needs to apply the reworked services in production.
     \end{itemize}
 
 
-    \begin{table}[h]
+        \begin{table}[H]
         \centering
         \renewcommand{\arraystretch}{1.6}
         \setlength{\arrayrulewidth}{0.6pt}
@@ -204,7 +209,7 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
 
         \rowcolor{mclightgray}
         \textbf{Description} & \textbf{Unit} \\ \hline
-        indicate how many activities and work item needs a rework. Higher value indicated inefficiency and waste. &
+        Indicate how many activities and work item needs a rework. Higher value indicated inefficiency and waste. &
         Percentage. \\ \hline
 
         \rowcolor{mclightgray}
@@ -220,7 +225,7 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
 
         \caption{Waste - Rework Rate}
         \label{tab:measurement_NUMofOpenIncident}
-    \end{table}
+        \end{table}
 
 
     % Within a Process Factory model, waste reduction relies on standardizing processes, automating repetitive activities, clearly defining responsibilities, and continuously monitoring performance through KPIs. Metrics such as **Change Success Rate**, **Mean Time to Restore Service (MTRS)**, **Incident Recurrence Rate**, **First Contact Resolution**, **Knowledge Article Reuse Rate**, and **Average Change Lead Time** enable management to identify where waste occurs and measure the effectiveness of improvement initiatives.
@@ -284,10 +289,30 @@ This metric measures the total cost incurred by the IT organization to deliver, 
 
 \section{Backlog}
 %   Alberto
-Number of open incidents, problems, service requests and change requests awaiting completion | decrease
 
-Exists several backlog solutions to implement thus to resolve problems like the number of open incidents, problems, service requests and change requests awaiting approval., thus to resolve problems explained in the respective section~\ref{subs:backlog}
+% \subsection{Number of open requests}
 
+% The current number of open incidents, problems, change requests or others kinds that are awaiting for completation.
+% This indicators can provide a clear and immediate panoramic of the current status of each department and situation.
+
+% Exists several backlog solutions to implement thus to resolve problems like the number of open incidents, problems, service requests and change requests awaiting approval., thus to resolve problems explained in the respective section~\ref{subs:backlog}
+
+
+
+
+\subsection{Priority distribution}
+\label{sub:prioritydistribution}
+Backlog priority distribution measure the compositiion of open ticket, grouping them by their priority. This metric can be applied to different subject, such as problems or change requests.
+
+With this KPI, the IT can monitor a rank of the amount of task for each division thus to plan and coordinate different resources in order to accomplish first critical tasks and to direct others requests.
+
+It affects several ITSM process for each division, for instance:
+
+\begin{itemize}
+    \item \textbf{Incident Management} for incidents 
+    \item \textbf{Problem Management} for problems and known errors
+    \item \textbf{Change Enablement} for change requests open or request awaiting to be accomplished
+\end{itemize}
 
 \begin{table}[h]
     \centering
@@ -296,91 +321,62 @@ Exists several backlog solutions to implement thus to resolve problems like the 
 
     \begin{tabularx}{\textwidth}{|X|X|}
     \hline
-    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Number of open incident}}} \\ \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Backlog Priority Distribution}}} \\ \hline
 
     \rowcolor{mclightgray}
     \textbf{Description} & \textbf{Unit} \\ \hline
-    Number of unresolved incidents older than SLA. &
-    Number of tickets. \\ \hline
+    Helps determine whether unresolved work is concentrated on high-impact issues and supports prioritization decisions. The organization should aims to lower percentage on the priority level. &
+    Percentage. \\ \hline
 
     \rowcolor{mclightgray}
     \textbf{Formula} & \textbf{Frequency} \\ \hline
     \[
-     \sum_{\substack{i=0 \\ \text{ticket}_i=\text{open} \\ \text{time}_i>\text{SLA}}}^{n} x_i
+     \frac{\text{Open tickets of priority P}}{Total open tickets} \times 100
     \]
-
-    With ``n'' as total number of ticket within the frequency preferred.
+    
+    \textit{calculated for each priority level}
+    
      &
-    Daily/Weekly/Montly. \\ \hline
+    Weekly (operational team) \& Montly (as management reporting). \\ \hline
 
     \end{tabularx}
 
-    \caption{Measurement - SLA Compliance Rate}
-    \label{tab:measurement_NUMofOpenIncident}
+    \caption{Measurement - Backlog Priority Distribution}
+    \label{tab:measurement_backlogPriorityDistribution}
 \end{table}
 
 
 
+\subsection{Task completed from last report}
 
+Combined with the metric before \ref{sub:prioritydistribution}, provide the work tasks successfully completed during the reporting period.
+This provide the performance of the various department toward the resolution and accomplishment of the open requests.
 
-% KPI 1 — Backlog Aging ----> conflict in waste?
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
 
-% Metric
-% Average age of unresolved tickets.
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Task Completed Since Last Report}}} \\ \hline
 
-% Processes
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    It indicates the team's throughput and ability to reduce backlog. High percentage means high efficiency of the teams` abilities &
+    Percentage. \\ \hline
 
-% Incident Management
-% Problem Management
-% Request Fulfilment
-% Change Enablement
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    \[
+     \frac{\text{Tickets completed during last report}}{Tickets opened during last report} \times 100
+    \]
+    
+     &
+    Montly (within the previous management report). \\ \hline
 
-% Measurement Card
+    \end{tabularx}
 
-% Field	Value
-% Description	Average number of days that unresolved tickets remain in the backlog.
-% Unit	Days
-% Formula	Sum of age of all open tickets ÷ Number of open tickets
-% Frequency	Daily measurement, Weekly report
-----------------
-
-% KPI 4 — Backlog Clearance Rate
-
-% Metric
-
-% Percentage of backlog resolved during the reporting period.
-
-% Processes
-
-% Incident Management
-% Problem Management
-% Request Fulfilment
-
-% Measurement Card
-
-% Field	Value
-% Description	Measures the team's effectiveness in reducing outstanding work.
-% Unit	%
-% Formula	(Tickets closed during period ÷ Tickets in backlog at start of period) × 100
-% Frequency	Weekly
-
-% ------------
-
-% Priority Backlog Distribution
-
-% Metric
-
-% Percentage of backlog by priority level.
-
-% Processes
-
-% Incident Management
-% Service Level Management
-
-% Measurement Card
-
-% Field	Value
-% Description	Tracks backlog distribution across priority levels to ensure high-priority work receives immediate attention.
-% Unit	%
-% Formula	(Tickets of each priority ÷ Total backlog) × 100
-% Frequency	Daily
+    \caption{Measurement - Task Completed Since Last Report}
+    \label{tab:TaskCompletedLastReport}
+\end{table}
