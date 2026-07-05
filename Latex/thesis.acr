@@ -1,0 +1,6 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{K}\relax \glsresetentrylist %
+\glossentry{kpis}{\glossaryentrynumbers{\relax 
+		\glsseeformat[Glossary:]{gkpis}{Z}}}%
+\end{theglossary}\glossarypostamble
