@@ -399,13 +399,13 @@ INPUT ./config/variables.tex
 INPUT config/variables.tex
 INPUT ./printable-thesis.xmpdata
 INPUT printable-thesis.xmpdata
+OUTPUT printable-thesis.glo
+OUTPUT printable-thesis.acn
 INPUT ./appendix/glossary-entries.tex
 INPUT ./appendix/glossary-entries.tex
 INPUT ./appendix/glossary-entries.tex
 INPUT ./appendix/glossary-entries.tex
 INPUT appendix/glossary-entries.tex
-OUTPUT printable-thesis.glo
-OUTPUT printable-thesis.acn
 INPUT d:/Program/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT d:/Program/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT d:/Program/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty

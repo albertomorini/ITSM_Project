@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  5 JUL 2026 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  5 JUL 2026 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1882,16 +1882,17 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 LaTeX Info: File `printable-thesis.xmpdata' already exists on the system.
             Not generating it from this source.
 
-) (./appendix/glossary-entries.tex)
+)
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `printable-thesis.glo'.
 
-Package glossaries Info: Writing glossary file printable-thesis.glo on input line 49.
+Package glossaries Info: Writing glossary file printable-thesis.glo on input line 48.
 \glo@acronym@file=\write7
 \openout7 = `printable-thesis.acn'.
 
-Package glossaries Info: Writing glossary file printable-thesis.acn on input line 49.
+Package glossaries Info: Writing glossary file printable-thesis.acn on input line 48.
+ (./appendix/glossary-entries.tex)
 Package hyperref Info: Option `colorlinks' set `true' on input line 104.
 Package hyperref Info: Option `linktocpage' set `true' on input line 104.
 Package hyperref Info: Option `breaklinks' set `true' on input line 104.
@@ -2112,14 +2113,16 @@ Package pdftex.def Info: images/organization_organigram.png  used on input line 
 [1
 
 
- <./images/organization_organigram.png>]) (./chapters/3_CriticalSuccessFactors.tex [2]
+ <./images/organization_organigram.png>]) (./chapters/3_CriticalSuccessFactors.tex [2] [3] [4
+
+]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<images/vision.png, id=53, 603.25375pt x 372.39125pt>
+<images/vision.png, id=59, 603.25375pt x 372.39125pt>
 File: images/vision.png Graphic file (type png)
 <use images/vision.png>
 Package pdftex.def Info: images/vision.png  used on input line 12.
@@ -2127,23 +2130,21 @@ Package pdftex.def Info: images/vision.png  used on input line 12.
 
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [3
+ [5 <./images/vision.png>]
 
- <./images/vision.png>]
-
-LaTeX Warning: Reference `cap:goals' on page 4 undefined on input line 32.
+LaTeX Warning: Reference `cap:goals' on page 6 undefined on input line 32.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[4]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[5] [6] [7]
+[7] [8] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
@@ -2153,7 +2154,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-[8]) (./chapters/4_MeasurementProcedures.tex [9] [10
+[10]) (./chapters/4_MeasurementProcedures.tex [11] [12
 
 ]
 Chapter 3.
@@ -2167,12 +2168,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[11] [12]
+[13] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-[13]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
@@ -2180,12 +2181,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15] [16]) (./chapters/5_Conclusions.tex
+[16] [17] [18]) (./chapters/5_Conclusions.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17] [18]
+ [19] [20]
 Chapter 4.
-<images/metrics.png, id=110, 824.07875pt x 302.12875pt>
+<images/metrics.png, id=117, 824.07875pt x 302.12875pt>
 File: images/metrics.png Graphic file (type png)
 <use images/metrics.png>
 Package pdftex.def Info: images/metrics.png  used on input line 8.
@@ -2195,14 +2196,14 @@ Overfull \hbox (79.19879pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-) [19
+) [21
 
- <./images/metrics.png>] [20
+ <./images/metrics.png>] [22
 
 ]
 No file printable-thesis.acr.
 No file printable-thesis.gls.
-(./appendix/bibliography.tex [21] [22
+(./appendix/bibliography.tex [23] [24
 
 ]
 
@@ -2223,7 +2224,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package biblatex Warning: No driver for 'paper'.
 (biblatex)                Using fallback driver on input line 10.
 
-) [23
+) [25
 
 ] (./printable-thesis.aux)
  ***********
@@ -2242,11 +2243,11 @@ Package logreq Info: Writing requests to 'printable-thesis.run.xml'.
 
  ) ) ) 
 Here is how much of TeX's memory you used:
- 40010 strings out of 467168
- 740016 string characters out of 5409473
- 1714046 words of memory out of 5000000
- 68452 multiletter control sequences out of 15000+600000
- 654293 words of font info for 183 fonts, out of 8000000 for 9000
+ 40070 strings out of 467168
+ 740876 string characters out of 5409473
+ 1714535 words of memory out of 5000000
+ 68514 multiletter control sequences out of 15000+600000
+ 654235 words of font info for 182 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  101i,15n,128p,2552b,2545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2355,10 +2356,10 @@ pdfTeX warning (dest): name{lof.0} has been referenced but does not exist, repla
 pdfTeX warning (dest): name{tableofcontents.0} has been referenced but does not exist, replaced by a fixed one
 
 <d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on printable-thesis.pdf (29 pages, 663202 bytes).
+Output written on printable-thesis.pdf (31 pages, 663838 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
+ 382 PDF objects out of 1000 (max. 8388607)
+ 291 compressed objects within 3 object streams
  35 named destinations out of 1000 (max. 500000)
  56121 words of extra memory for PDF output out of 61914 (max. 10000000)
 
