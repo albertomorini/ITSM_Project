@@ -5,6 +5,8 @@
 \section{Time to Market}
 %   Savas
 
+\subsection{Average Lead Time for Change to Production}
+
 Average Lead Time of Change to Production measures the average amount of time taken for a new or modified IT service, feature, or change to progress from formal approval to successful deployment into the production environment. The metric evaluates the IT department's ability to rapidly deliver business value and respond to customer and market requirements. The reduction in lead time indicates increased organizational agility, improved collaboration between business and IT, and greater effectiveness of the service delivery process. \\
 
 The Average Lead Time of Change to Production was selected because it directly measures the bank's ability to rapidly deliver new and modified digital services to customers. Considering the organization's strategic objectives of international expansion and increasing internet banking revenues, reducing the lead time of service deployment contributes directly to customer satisfaction, competitive advantage, and business agility. This metric is primarily influenced by the Service Design, Change Enablement, Release and Deployment Management, and Service Validation and Testing processes. \\
@@ -94,8 +96,8 @@ For this KPI the process affected are:
 
 \subsection{Mean time for restoring service}
 
-Another Key Performance Indicator which can help the IT Department toward the monitor the performance of the service within the expectation of the stakeholders is the measurement of the restoring service time.
-This indicator measures how quickly the IT organization restores service after an interruption, closely related to the previous metric~\ref{sub:slaComplianceRate} but can be adopted by IT Department as an input for continuous improvement toward to optimize it's response for incidents.
+Another Key Performance Indicator which can help the IT Department toward the monitor service performance within the expectation of the stakeholders is the measurement of the restoring service time.
+This indicator measures how quickly the IT organization restores service after an interruption, closely related to the previous metric~\ref{sub:slaComplianceRate} but can be adopted by IT Department as an input for continuous improvement toward to optimize its response for incidents.
 
 Primarily involves the \textbf{``Incident Management''} process but can be extended to others related process such as:
 \begin{itemize}
@@ -141,7 +143,7 @@ Primarily involves the \textbf{``Incident Management''} process but can be exten
 \section{Standardization}
 %   Savas
 
-Within the context of the bank’s transformation toward a shared service center model, standardization of IT services and underlying infrastructure constitutes a fundamental control mechanism for achieving operational efficiency, scalability, and regulatory consistency across geographically distributed units and acquired entities. Given the bank’s expansion strategy and the integration challenges arising from heterogeneous legacy systems, variations in service delivery practices, and differing national operating environments, a measurable approach to architectural conformity is required. The selected KPI—percentage of IT services complying with standardized service and enterprise infrastructure architectures—captures the degree to which services adhere to approved reference architectures, standardized deployment models (including the “virtual first” principle), and centrally governed configuration baselines. This indicator therefore functions as a proxy for industrialization maturity within the IT organization, directly reflecting the success of the Process Factory pillar in reducing structural variability, improving interoperability, and enabling controlled, repeatable service delivery across all operational domains. \\
+Within the context of the bank`s transformation toward a shared service center model, standardization of IT services and underlying infrastructure constitutes a fundamental control mechanism for achieving operational efficiency, scalability, and regulatory consistency across geographically distributed units and acquired entities. Given the bank`s expansion strategy and the integration challenges arising from heterogeneous legacy systems, variations in service delivery practices, and differing national operating environments, a measurable approach to architectural conformity is required. The selected KPI—percentage of IT services complying with standardized service and enterprise infrastructure architectures—captures the degree to which services adhere to approved reference architectures, standardized deployment models (including the ``virtual first'' principle), and centrally governed configuration baselines. This indicator therefore functions as a proxy for industrialization maturity within the IT organization, directly reflecting the success of the Process Factory pillar in reducing structural variability, improving interoperability, and enabling controlled, repeatable service delivery across all operational domains. \\
 
 
 \begin{table}[h]
@@ -172,7 +174,7 @@ Within the context of the bank’s transformation toward a shared service center
     \label{tab:measurement_StandardizationComplianceRate}
 \end{table}
 
-Overall, this KPI supports the Process Factory critical success factor by ensuring that IT services are not only delivered efficiently but are also structurally consistent, enabling economies of scale, improved governance, and reduced complexity across the bank’s global IT operations. \\
+Overall, this KPI supports the Process Factory critical success factor by ensuring that IT services are not only delivered efficiently but are also structurally consistent, enabling economies of scale, improved governance, and reduced complexity across the bank`s global IT operations. \\
 
 %   Gonna add a bit more here
 
@@ -224,7 +226,6 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
 
 \subsection{Rework rate}
 
-
     For instance, since the Bank aims to increase revenue from its Internet Banking services, poor user experience caused by application malfunctions or insufficient service quality may reduce customer engagement. At the same time, these defects can represent significant rework for both external suppliers and the internal design and development teams; increasing costs and delaying service improvements, reducing the overall efficiency of the Service Value Chain (SVC).
 
     The rate of the rework activities serve a strong KPI for user engagement and involves many process of IT Service Management, main of them are:
@@ -270,9 +271,7 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
         \end{table}
 
 
-    % Within a Process Factory model, waste reduction relies on standardizing processes, automating repetitive activities, clearly defining responsibilities, and continuously monitoring performance through KPIs. Metrics such as **Change Success Rate**, **Mean Time to Restore Service (MTRS)**, **Incident Recurrence Rate**, **First Contact Resolution**, **Knowledge Article Reuse Rate**, and **Average Change Lead Time** enable management to identify where waste occurs and measure the effectiveness of improvement initiatives.
-
-    % ---------------------------------------------------------
+% ---------------------------------------------------------
 
 \section{Service Costs}
 %   Savas
@@ -296,7 +295,7 @@ Total IT Service Cost per Service (TISCS) measures the complete financial cost a
         \rowcolor{mclightgray}
         \textbf{Formula} & \textbf{Frequency} \\ \hline
         Direct Service Costs + Allocated Indirect Costs &
-        Monthly, Quarterly, Annually. \\ \hline
+        Monthly/Quarterly/Annually. \\ \hline
 
         \end{tabularx}
 
@@ -304,7 +303,7 @@ Total IT Service Cost per Service (TISCS) measures the complete financial cost a
         \label{tab:measurement_ITcostperservice}
     \end{table}
 
-in the formulation of this KPI metric, Direct Service Costs and Allocated Indirect Cost elements can be listed as following. \\
+In the formulation of this KPI metric, Direct Service Costs and Allocated Indirect Cost elements can be listed as following:
 
 \textbf{Direct Service Costs include:}
 \begin{itemize}
@@ -334,19 +333,12 @@ This metric measures the total cost incurred by the IT organization to deliver, 
 
 % \subsection{Number of open requests}
 
-% The current number of open incidents, problems, change requests or others kinds that are awaiting for completation.
-% This indicators can provide a clear and immediate panoramic of the current status of each department and situation.
-
-% Exists several backlog solutions to implement thus to resolve problems like the number of open incidents, problems, service requests and change requests awaiting approval., thus to resolve problems explained in the respective section~\ref{subs:backlog}
-
-
-
 
 \subsection{Priority distribution}
 \label{sub:prioritydistribution}
-Backlog priority distribution measure the compositiion of open ticket, grouping them by their priority. This metric can be applied to different subject, such as problems or change requests.
+Backlog priority distribution measures the compositiion of open tickets, grouping them by their priority. This metric can be applied to different subjects, such as problems or change requests.
 
-With this KPI, the IT can monitor a rank of the amount of task for each division thus to plan and coordinate different resources in order to accomplish first critical tasks and to direct others requests.
+With this KPI, the IT can monitor a rank of the amount of task for each division in way to plan and coordinate different resources in order to accomplish first critical tasks and to direct others requests.
 
 It affects several ITSM process for each division, for instance:
 
@@ -391,10 +383,11 @@ It affects several ITSM process for each division, for instance:
 
 \subsection{Task completed from last report}
 
-Combined with the metric before \ref{sub:prioritydistribution}, provide the work tasks successfully completed during the reporting period.
-This provide the performance of the various department toward the resolution and accomplishment of the open requests.
+Another metric, combined with the before Priority Distribution \ref{sub:prioritydistribution}, provide the work tasks successfully completed during the reporting period.
+This provide the performance of the various department toward the resolution and accomplishment of the open requests. \\
+IT Department should aim to higher percentage expecially related to high priority tasks.
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \renewcommand{\arraystretch}{1.6}
     \setlength{\arrayrulewidth}{0.6pt}
@@ -405,7 +398,7 @@ This provide the performance of the various department toward the resolution and
 
     \rowcolor{mclightgray}
     \textbf{Description} & \textbf{Unit} \\ \hline
-    It indicates the team's throughput and ability to reduce backlog. High percentage means high efficiency of the teams` abilities &
+    It indicates the team`s throughput and ability to reduce backlog. High percentage means high efficiency of the teams` abilities &
     Percentage. \\ \hline
 
     \rowcolor{mclightgray}
@@ -413,7 +406,7 @@ This provide the performance of the various department toward the resolution and
     \[
      \frac{\text{Tickets completed during last report}}{Tickets opened during last report} \times 100
     \]
-    
+    \textit{divided for each priority level if used as comparison within the previous KPI}
      &
     Montly (within the previous management report). \\ \hline
 
