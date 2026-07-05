@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  5 JUL 2026 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  5 JUL 2026 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2153,11 +2153,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
 [8]) (./chapters/4_MeasurementProcedures.tex [9] [10
 
 ]
@@ -2350,7 +2345,7 @@ pdfTeX warning (dest): name{lof.0} has been referenced but does not exist, repla
 pdfTeX warning (dest): name{tableofcontents.0} has been referenced but does not exist, replaced by a fixed one
 
 <d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on printable-thesis.pdf (29 pages, 646793 bytes).
+Output written on printable-thesis.pdf (29 pages, 646767 bytes).
 PDF statistics:
  361 PDF objects out of 1000 (max. 8388607)
  274 compressed objects within 3 object streams
