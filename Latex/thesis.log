@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  5 JUL 2026 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  5 JUL 2026 23:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1950,11 +1950,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./thesis.aux
-
-LaTeX Warning: Label `tab:measurement_backlogPriorityDistribution' multiply defined.
-
-)
+ (./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -2029,7 +2025,7 @@ Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-)
+) (./thesis.glsdefs)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -2131,7 +2127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 ] (./chapters/2_MissionGoals.tex
 Chapter 1.
-<images/organization_organigram.png, id=139, 835.12pt x 478.78876pt>
+<images/organization_organigram.png, id=141, 835.12pt x 478.78876pt>
 File: images/organization_organigram.png Graphic file (type png)
 <use images/organization_organigram.png>
 Package pdftex.def Info: images/organization_organigram.png  used on input line 13.
@@ -2140,45 +2136,46 @@ Package pdftex.def Info: images/organization_organigram.png  used on input line 
 
 
 
- <./images/organization_organigram.png>]) (./chapters/3_CriticalSuccessFactors.tex [2] [3]
+ <./images/organization_organigram.png>]) (./chapters/3_CriticalSuccessFactors.tex [2]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<images/vision.png, id=168, 603.25375pt x 372.39125pt>
+<images/vision.png, id=167, 1206.5075pt x 744.7825pt>
 File: images/vision.png Graphic file (type png)
 <use images/vision.png>
-Package pdftex.def Info: images/vision.png  used on input line 12.
-(pdftex.def)             Requested size: 356.39758pt x 220.0044pt.
-[4
+Package pdftex.def Info: images/vision.png  used on input line 14.
+(pdftex.def)             Requested size: 356.39758pt x 220.00441pt.
+[3
 
  <./images/vision.png>]
-
-LaTeX Warning: Reference `cap:goals' on page 5 undefined on input line 32.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
+Overfull \hbox (13.83328pt too wide) in paragraph at lines 29--31
+\T1/cmr/m/n/10 (-20) This customer-centric ap-proach sup-ports or-ga-ni-za-tion`s ob-jec-tives of de-liv-er-ing high-performance,
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-[6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-[9]) (./chapters/4_MeasurementProcedures.tex [10]
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+[8]) (./chapters/4_MeasurementProcedures.tex [9]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
@@ -2190,14 +2187,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[11
+[10
 
-] [12]
+] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-[13]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
@@ -2205,22 +2202,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15] [16]) (./chapters/5_Conclusions.tex [17] [18]
+[13] [14] [15]) (./chapters/5_Conclusions.tex [16] [17]
 Chapter 4.
-<images/metrics.png, id=260, 824.07875pt x 302.12875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+<images/metrics.png, id=255, 824.07875pt x 302.12875pt>
 File: images/metrics.png Graphic file (type png)
 <use images/metrics.png>
-Package pdftex.def Info: images/metrics.png  used on input line 8.
+Package pdftex.def Info: images/metrics.png  used on input line 13.
 (pdftex.def)             Requested size: 475.19879pt x 174.22057pt.
 
-Overfull \hbox (79.19879pt too wide) in paragraph at lines 8--9
+Overfull \hbox (79.19879pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-) [19
+) [18
 
- <./images/metrics.png>] (./thesis.acr) (./thesis.gls) [20
+ <./images/metrics.png>] (./thesis.acr [19
 
+]) (./thesis.gls [20
+
+
+]) [21
 
 
 ] (./thesis.aux)
@@ -2228,36 +2234,32 @@ Overfull \hbox (79.19879pt too wide) in paragraph at lines 8--9
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 39888 strings out of 467533
- 732489 string characters out of 5422138
- 1719009 words of memory out of 5000000
- 67911 multiletter control sequences out of 15000+600000
- 653607 words of font info for 178 fonts, out of 8000000 for 9000
+ 40081 strings out of 467533
+ 735586 string characters out of 5422138
+ 1722057 words of memory out of 5000000
+ 68095 multiletter control sequences out of 15000+600000
+ 653501 words of font info for 177 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  97i,16n,125p,2537b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{glo:gkpis} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:[Glossary:]{gkpis}\040text} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{glo:gcsf} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:sla} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:pestle} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (25 pages, 634517 bytes).
+Output written on thesis.pdf (26 pages, 1143922 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
- 87 named destinations out of 1000 (max. 500000)
- 55609 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 55617 words of extra memory for PDF output out of 61914 (max. 10000000)
 

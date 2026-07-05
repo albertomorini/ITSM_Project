@@ -470,6 +470,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT ./thesis.glsdefs
+INPUT ./thesis.glsdefs
+INPUT thesis.glsdefs
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
