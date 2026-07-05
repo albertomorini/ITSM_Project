@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  3 JUL 2026 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.30)  5 JUL 2026 16:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1870,7 +1870,14 @@ Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
 new hooks used!!
 \minrowclearance=\skip120
 \rownum=\count510
-)) (./config/thesis-config.tex (./config/variables.tex
+)) (d:/Program/texlive/2026/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count511
+\float@exts=\toks47
+\float@box=\box68
+\@float@everytoks=\toks48
+\@floatcapt=\box69
+) (./config/thesis-config.tex (./config/variables.tex
 
 LaTeX Info: File `printable-thesis.xmpdata' already exists on the system.
             Not generating it from this source.
@@ -1915,8 +1922,8 @@ File: lstlang3.sty 2025/11/14 1.11b listings language file
 ) (d:/Program/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
-\c@riskcounter=\count511
-\c@usecasecounter=\count512
+\c@riskcounter=\count512
+\c@usecasecounter=\count513
 ) (./structure.tex
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1924,10 +1931,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./printable-thesis.aux
 
-LaTeX Warning: Label `tab:measurement_NUMofOpenIncident' multiply defined.
-
-
-LaTeX Warning: Label `tab:measurement_NUMofOpenIncident' multiply defined.
+LaTeX Warning: Label `tab:measurement_backlogPriorityDistribution' multiply defined.
 
 )
 \openout1 = `printable-thesis.aux'.
@@ -1952,17 +1956,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
  (d:/Program/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count513
+\scratchcounter=\count514
 \scratchdimen=\dimen290
-\scratchbox=\box68
-\nofMPsegments=\count514
-\nofMParguments=\count515
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count516
+\scratchbox=\box70
+\nofMPsegments=\count515
+\nofMParguments=\count516
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count517
 \MPscratchDim=\dimen291
-\MPnumerator=\count517
-\makeMPintoPDFobject=\count518
-\everyMPtoPDFconversion=\toks48
+\MPnumerator=\count518
+\makeMPintoPDFobject=\count519
+\everyMPtoPDFconversion=\toks50
 ) (d:/Program/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1977,6 +1981,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen292
 \caption@adjustwidth@linewidth=\dimen293
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 (d:/Program/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1984,7 +1989,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count519
+\c@lstlisting=\count520
 LaTeX Info: Redefining \microtypecontext on input line 10.
 Package microtype Info: Applying patch `item' on input line 10.
 Package microtype Info: Applying patch `toc' on input line 10.
@@ -2107,52 +2112,101 @@ Package pdftex.def Info: images/organization_organigram.png  used on input line 
 [1
 
 
- <./images/organization_organigram.png>]
-<images/vision.png, id=49, 603.25375pt x 372.39125pt>
-File: images/vision.png Graphic file (type png)
-<use images/vision.png>
-Package pdftex.def Info: images/vision.png  used on input line 72.
-(pdftex.def)             Requested size: 316.80121pt x 195.55946pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./chapters/3_CriticalSuccessFactors.tex [2] [3 <./images/vision.png>] [4
-
-]
+ <./images/organization_organigram.png>]) (./chapters/3_CriticalSuccessFactors.tex [2]
 Chapter 2.
 
-LaTeX Warning: Reference `cap:goals' on page 5 undefined on input line 18.
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[6] [7]) (./chapters/4_MeasurementProcedures.tex [8] [9] [10
+<images/vision.png, id=53, 603.25375pt x 372.39125pt>
+File: images/vision.png Graphic file (type png)
+<use images/vision.png>
+Package pdftex.def Info: images/vision.png  used on input line 12.
+(pdftex.def)             Requested size: 356.39758pt x 220.0044pt.
+
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [3
+
+ <./images/vision.png>]
+
+LaTeX Warning: Reference `cap:goals' on page 4 undefined on input line 32.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+[8]) (./chapters/4_MeasurementProcedures.tex [9] [10
 
 ]
 Chapter 3.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
 
 
-Underfull \vbox (badness 1577) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/5_Conclusions.tex [13] [14]
-Chapter 4.
-) [15
 
-] [16
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+[13]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+[16]) (./chapters/5_Conclusions.tex [17] [18
+
+]
+Chapter 4.
+) [19] [20
 
 ]
 No file printable-thesis.acr.
 No file printable-thesis.gls.
-(./appendix/bibliography.tex [17] [18
+(./appendix/bibliography.tex [21] [22
 
 ]
 
@@ -2173,7 +2227,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package biblatex Warning: No driver for 'paper'.
 (biblatex)                Using fallback driver on input line 10.
 
-) [19
+) [23
 
 ] (./printable-thesis.aux)
  ***********
@@ -2192,18 +2246,24 @@ Package logreq Info: Writing requests to 'printable-thesis.run.xml'.
 
  ) ) ) 
 Here is how much of TeX's memory you used:
- 39963 strings out of 467168
- 739125 string characters out of 5409473
- 1712682 words of memory out of 5000000
- 68432 multiletter control sequences out of 15000+600000
- 653754 words of font info for 174 fonts, out of 8000000 for 9000
+ 40058 strings out of 467168
+ 740728 string characters out of 5409473
+ 1716873 words of memory out of 5000000
+ 68501 multiletter control sequences out of 15000+600000
+ 654412 words of font info for 184 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 101i,19n,128p,2552b,2545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,128p,2552b,2545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{appendix*.15} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{appendix*.20} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.6.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.6.1} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist, replaced by a fixed one
@@ -2289,11 +2349,11 @@ pdfTeX warning (dest): name{lof.0} has been referenced but does not exist, repla
 
 pdfTeX warning (dest): name{tableofcontents.0} has been referenced but does not exist, replaced by a fixed one
 
-<d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on printable-thesis.pdf (25 pages, 657017 bytes).
+<d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on printable-thesis.pdf (29 pages, 646793 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 30 named destinations out of 1000 (max. 500000)
- 56076 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 56092 words of extra memory for PDF output out of 61914 (max. 10000000)
 
