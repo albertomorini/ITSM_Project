@@ -30,4 +30,3 @@
 \contentsline {subsection}{\numberline {3.6.1}Priority distribution}{18}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Task completed from last report}{19}{subsection.3.6.2}%
 \contentsline {chapter}{\numberline {4}Conclusions}{21}{chapter.4}%
-\contentsline {chapter}{Bibliography}{25}{appendix*.21}%

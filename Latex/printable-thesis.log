@@ -2208,30 +2208,7 @@ Overfull \hbox (79.19879pt too wide) in paragraph at lines 13--14
 ]
 No file printable-thesis.acr.
 No file printable-thesis.gls.
-(./appendix/bibliography.tex [23] [24
-
-]
-
-Package biblatex Warning: Type 'book' not found on input line 7.
-
-
-LaTeX Warning: Empty bibliography on input line 7.
-
-
-Package biblatex Warning: No driver for 'paper'.
-(biblatex)                Using fallback driver on input line 10.
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Package biblatex Warning: No driver for 'paper'.
-(biblatex)                Using fallback driver on input line 10.
-
-) [25
-
-] (./printable-thesis.aux)
+[23] (./printable-thesis.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -2243,21 +2220,22 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'printable-thesis.run.xml'.
 \openout1 = `printable-thesis.run.xml'.
 
  ) ) ) 
 Here is how much of TeX's memory you used:
- 40070 strings out of 467168
- 740876 string characters out of 5409473
+ 39851 strings out of 467168
+ 736413 string characters out of 5409473
  1714535 words of memory out of 5000000
- 68514 multiletter control sequences out of 15000+600000
- 654235 words of font info for 182 fonts, out of 8000000 for 9000
+ 68305 multiletter control sequences out of 15000+600000
+ 653607 words of font info for 178 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  101i,15n,128p,2552b,2545s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{appendix*.21} has been referenced but does not exist, replaced by a fixed one
-
 
 pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, replaced by a fixed one
 
@@ -2360,11 +2338,11 @@ pdfTeX warning (dest): name{lof.0} has been referenced but does not exist, repla
 
 pdfTeX warning (dest): name{tableofcontents.0} has been referenced but does not exist, replaced by a fixed one
 
-<d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on printable-thesis.pdf (31 pages, 664462 bytes).
+<d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/Program/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on printable-thesis.pdf (29 pages, 627794 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
- 56121 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 55601 words of extra memory for PDF output out of 61914 (max. 10000000)
 
