@@ -1,0 +1,9 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'printable-thesis.blg'
+[246] biber-MSWIN64:342> INFO - === 
+[407] Biber.pm:421> INFO - Reading 'printable-thesis.bcf'
+[613] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[643] bbl.pm:676> INFO - Writing 'printable-thesis.bbl' with encoding 'UTF-8'
+[643] bbl.pm:779> INFO - Output to printable-thesis.bbl
+[645] Biber.pm:132> WARN - The file 'printable-thesis.bcf' does not contain any citations!
+[646] Biber.pm:134> INFO - WARNINGS: 1
