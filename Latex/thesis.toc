@@ -31,5 +31,4 @@
 \contentsline {subsection}{\numberline {3.6.2}Task completed from last report}{17}{subsection.3.6.2}%
 \contentsline {chapter}{\numberline {4}Conclusions}{19}{chapter.4}%
 \contentsline {chapter}{Acronyms and abbreviations}{20}{section*.20}%
-\contentsline {chapter}{Glossary}{21}{section*.22}%
-\contentsline {chapter}{Bibliography}{22}{appendix*.24}%
+\contentsline {chapter}{Bibliography}{21}{appendix*.22}%
