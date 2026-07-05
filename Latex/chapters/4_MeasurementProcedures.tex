@@ -42,6 +42,7 @@ The Average Lead Time of Change to Production was selected because it directly m
 Explained in subsection \ref{subs:performancetocontract}.
 
 \subsection{SLA Compliance Rate}
+\label{sub:slaComplianceRate}
 
 SLA Compliance Rate can provide a measure whether contractual service levels are respected, thus to accomplish the agreements made with customers or stakeholders and therefore maintaint the quality of the service provided.
 
@@ -91,9 +92,48 @@ For this KPI the process affected are:
 \end{table}
 
 
-\subsection{Mean restoring service time}
+\subsection{Mean time for restoring service}
 
-TODO
+Another Key Performance Indicator which can help the IT Department toward the monitor the performance of the service within the expectation of the stakeholders is the measurement of the restoring service time.
+This indicator measures how quickly the IT organization restores service after an interruption, closely related to the previous metric~\ref{sub:slaComplianceRate} but can be adopted by IT Department as an input for continuous improvement toward to optimize it's response for incidents.
+
+Primarily involves the \textbf{``Incident Management''} process but can be extended to others related process such as:
+\begin{itemize}
+    \item \textbf{Problem Management} which cover the role to resolve the problems that caused the incident
+    \item \textbf{Service Desks} which represent a single point of contact for users and other stakeholders, incident reports should pass by this department, which can be involved within the incident managament and classification then consume time and enter within the metric
+\end{itemize}
+
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Mean time for restoring service}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    Provide the average time required to restore an IT service after an incident has been reported. Lower values indicate better operational perforance and higher compliace with contractual SLAs.
+     &
+    Minutes. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    \[
+     \frac{\sum{\text{Restoration time}}}{\text{Number of resolved incidents}}
+    \]
+    
+     &
+    Weekly (operational team) \& Montly (as management reporting). \\ \hline
+
+    \end{tabularx}
+
+    \caption{Measurement - Backlog Priority Distribution}
+    \label{tab:measurement_backlogPriorityDistribution}
+\end{table}
+
+
 
 % ---------------------------------------------------------
 

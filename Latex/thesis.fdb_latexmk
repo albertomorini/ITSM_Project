@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber thesis"] 1783244704.10225 "thesis.bcf" "thesis.bbl" "thesis" 1783248695.64401 0
+["biber thesis"] 1783244704.10225 "thesis.bcf" "thesis.bbl" "thesis" 1783260293.52526 0
   "appendix/bibliography.bib" 1782658803.90792 1143 82d13f794dee82982a068b963f6d9d88 ""
-  "thesis.bcf" 1783248695.47419 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
+  "thesis.bcf" 1783260293.36747 108599 34ece348a1cd249fb343dea733389d5e "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1783248693.6688 "/home/alby/uni/ITSM/ITSM_Project/Latex/thesis.tex" "thesis.pdf" "thesis" 1783248695.64429 0
+["pdflatex"] 1783260291.68811 "/home/alby/uni/ITSM/ITSM_Project/Latex/thesis.tex" "thesis.pdf" "thesis" 1783260293.52555 0
   "/etc/texmf/web2c/texmf.cnf" 1778430345.14703 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/alby/uni/ITSM/ITSM_Project/Latex/thesis.tex" 1783009148.87748 316 9b37045be5fa0b9ed1089a0f8c26836b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -230,10 +230,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1778430372 5541477 3118940318599480888143717dd32d64 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1778430454 3638346 d4fcfd331894e204a7f279303b4b6ab2 ""
   "appendix/bibliography.tex" 1782658660.03757 357 42b3b7e46cf99808cd93678c165d5ac1 ""
-  "appendix/glossary-entries.tex" 1783244705.00353 1566 fa2cc2f86730c8ccc8668d34d844eb03 ""
-  "chapters/2_MissionGoals.tex" 1783107517.11876 6651 4000017ea8f8af8d36a31c04885159cf ""
+  "appendix/glossary-entries.tex" 1783260291.47544 1539 57caa412acb67c31095e1ab6c5b2d99b ""
+  "chapters/2_MissionGoals.tex" 1783260247.62042 6660 1570d703db2eec48e7e54240f38af37a ""
   "chapters/3_CriticalSuccessFactors.tex" 1783241119.39474 23364 6c44060f761f75d38a32c71fbe509362 ""
-  "chapters/4_MeasurementProcedures.tex" 1783248691.47416 18270 87aff62a56052c0614db263e8c160c7a ""
+  "chapters/4_MeasurementProcedures.tex" 1783260065.44841 20321 91ad73646beaa55e6ac4f346889ae500 ""
   "chapters/5_Conclusions.tex" 1782918984.73273 91 37d544723e636dc4579f917251188f7f ""
   "config/packages.tex" 1783247255.50837 2513 17a56990ef362d0fac77b24ed7fed29b ""
   "config/thesis-config.tex" 1782745198.66995 5500 0c4358aaf85cb45b42e8b2c8fc0f7039 ""
@@ -241,21 +241,21 @@
   "images/organization_organigram.png" 1783007246.72839 59887 5498bbb167c005b31b7be6611f08423f ""
   "images/unipd-logo.png" 1707649943 67664 84735a93690b9fb71a069fcaad11490a ""
   "images/vision.png" 1782935998.6187 41854 cb1b6f7f1f19f93887714ae5f11b588f ""
-  "pdfa.xmpi" 1783248694.0432 5536 f9a1951f78a7263a07d316553df987ec "pdflatex"
+  "pdfa.xmpi" 1783260292.06944 5536 fd33f15c504f226cc0488614a9a25373 "pdflatex"
   "preface/0_abstract.tex" 1782935688.16292 1187 36a4fd6d537a4f59ed7eeecdc8cf6887 ""
   "preface/copyright.tex" 1782657436.1243 159 77db181c63f50acd22d8bb6041a453dc ""
   "preface/table-of-contents.tex" 1707649943 515 8f86ac5c47278f1123f1c245568e8507 ""
   "preface/title-page.tex" 1782745185.42295 1485 324f164b0a88802a0d4eebcd618703dd ""
-  "structure.tex" 1783007085.64302 1183 2650b74c4268e7363170d4219c421228 ""
+  "structure.tex" 1783260207.88314 1184 4b0909baf08f06c024e83767ceafddad ""
   "thesis.acr" 0 -1 0 ""
-  "thesis.aux" 1783248695.46519 18931 23ef14976ced7306393c8788a18e97b2 "pdflatex"
+  "thesis.aux" 1783260293.36047 19363 b9789c8b74582f58f164801a213a1885 "pdflatex"
   "thesis.bbl" 1783244704.80512 6385 6b946c501a4e0447aada27e6b13404af "biber thesis"
   "thesis.gls" 0 -1 0 ""
-  "thesis.lof" 1783248695.47554 355 2610fbf889ed8ab0f7b96fa44a09ee55 "pdflatex"
-  "thesis.lot" 1783248695.47554 1109 cdedfa536a3cee17fa8dd87fc4ea115f "pdflatex"
-  "thesis.run.xml" 1783248695.47554 2406 6781b1e296a80bb72ec6c250f3fb1c7a "pdflatex"
+  "thesis.lof" 1783260293.36887 355 2610fbf889ed8ab0f7b96fa44a09ee55 "pdflatex"
+  "thesis.lot" 1783260293.36887 1232 1886cd09f46e619ae0d76722d523b192 "pdflatex"
+  "thesis.run.xml" 1783260293.36887 2406 6781b1e296a80bb72ec6c250f3fb1c7a "pdflatex"
   "thesis.tex" 1783009148.87748 316 9b37045be5fa0b9ed1089a0f8c26836b ""
-  "thesis.toc" 1783248695.47554 2319 ab23f8c2d26e971089224bd5263ded21 "pdflatex"
+  "thesis.toc" 1783260293.36887 2323 ebb0e561f0a7b913668fc93ce6743488 "pdflatex"
   "thesis.xmpdata" 1782656468.35922 149 56fdd9d6f763595b659afec0aa55a7e9 ""
   (generated)
   "pdfa.xmpi"
