@@ -1,10 +1,16 @@
-% Acronyms
-
-\newacronym[description={\glslink{apig}{Key Performance Indicator}}]
-    {kpis}{KPI}{Key Performance Indicator}
-% Glossary entry
 \newglossaryentry{gkpis}{
-    name={Key Performance Indicator (KPI)},
-    sort={kpi},
-    description={A measurable value used to evaluate how effectively an organization, service, or process achieves its strategic and operational objectives. In IT Service Management, KPIs are used to monitor service performance, assess process efficiency, and support continual service improvement.}
+    name={Key Performance Indicator},
+    description={A measurable metric that bla bla bla...}
 }
+\newglossaryentry{gcsf}{
+    name={Critical successful Factor},
+    description={A measurable metric that bla bla bla...}
+}
+
+\newacronym[
+    see={[Glossary:]{gkpis}}
+]{kpi}{KPI}{Key Performance Indicator}
+
+\newacronym[
+    see={[Glossary:]{gcsf}}
+]{csf}{CSF}{Critical successful Factors}
