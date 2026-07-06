@@ -7,6 +7,7 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces Performance To Contract - SLA Compliance Rate}}{7}{table.caption.12}%
 \contentsline {table}{\numberline {3.3}{\ignorespaces Backlog - Priority Distribution}}{8}{table.caption.13}%
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \contentsline {table}{\numberline {4.1}{\ignorespaces Standardization - Compliance Rate}}{10}{table.caption.14}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Waste - Repeated Incident Rate}}{12}{table.caption.15}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Waste - Rework Rate}}{13}{table.caption.16}%
@@ -16,3 +17,6 @@
 \contentsline {table}{\numberline {5.3}{\ignorespaces Backlog - Task Completed Since Last Report}}{18}{table.caption.19}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces Summary - Main KPI Metrics and their Relationships}}{19}{table.caption.20}%
+=======
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary - Main KPI Metrics and their Relationships}}{18}{table.caption.20}%
+>>>>>>> e9fde13 (Summary table done)

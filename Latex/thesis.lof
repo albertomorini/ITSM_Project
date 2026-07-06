@@ -6,6 +6,10 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Organisational Vision}}{3}{figure.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces CSF and KPI Metrics}}{20}{figure.caption.21}%
+=======
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CSF and KPI Metrics}}{19}{figure.caption.21}%
+>>>>>>> e9fde13 (Summary table done)

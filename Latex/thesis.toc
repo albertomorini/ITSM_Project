@@ -4,6 +4,7 @@
 \contentsline {section}{\numberline {1.1}Mission}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Goals}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Critical Success Factors}{3}{chapter.2}%
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {3}Customer Partnership}{4}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Time To Market}{4}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Average Lead Time for Change to Production}{5}{subsection.3.1.1}%
@@ -25,3 +26,33 @@
 \contentsline {chapter}{\numberline {6}Conclusions}{19}{chapter.6}%
 \contentsline {chapter}{Acronyms and abbreviations}{22}{section*.22}%
 \contentsline {chapter}{Glossary}{23}{section*.24}%
+=======
+\contentsline {section}{\numberline {2.1}Customer Partnership}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Time To Market}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Performance To Contract}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Process Factory}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Standardization}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Waste}{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Continuous Improvement}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Service Costs}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Backlog}{9}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Measurement Procedures}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Time to Market}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Average Lead Time for Change to Production}{10}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Performance to Contract}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}SLA Compliance Rate}{11}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Mean time for restoring service}{12}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Standardization}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Standardization Compliance Rate}{12}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Waste}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Repeated Incident rate}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Rework rate}{13}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Service Costs}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}IT Service costs distribution}{14}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Backlog}{15}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Priority distribution}{15}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Task completed from last report}{16}{subsection.3.6.2}%
+\contentsline {chapter}{\numberline {4}Conclusions}{18}{chapter.4}%
+\contentsline {chapter}{Acronyms and abbreviations}{21}{section*.22}%
+\contentsline {chapter}{Glossary}{22}{section*.24}%
+>>>>>>> e9fde13 (Summary table done)
