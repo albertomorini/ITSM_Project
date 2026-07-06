@@ -52,7 +52,7 @@ Overall, inefficiencies or lack of cooperation across these processes will resul
 
     \end{tabularx}
 
-    \caption{Measurement - Average Lead Time for Change to Production}
+    \caption{Time To Market - Avg Lead Time for Change to Production}
     \label{tab:measurement_AverageLeadTimeforChangetoProduction}
 \end{table}
 
@@ -106,7 +106,7 @@ For this ~\gls{kpi} the process affected are:
 
     \end{tabularx}
 
-    \caption{Measurement - SLA Compliance Rate}
+    \caption{Performance To Contract - SLA  Compliance Rate}
     \label{tab:measurement_SLAComplianceRate}
 \end{table}
 
@@ -148,7 +148,7 @@ Primarily involves the \textbf{``Incident Management''} process but can be exten
 
     \end{tabularx}
 
-    \caption{Measurement - Backlog Priority Distribution}
+    \caption{Backlog - Priority Distribution}
     \label{tab:measurement_meanTimeRestoringService}
 \end{table}
 
@@ -163,7 +163,7 @@ Primarily involves the \textbf{``Incident Management''} process but can be exten
 %   Savas
 
 \subsection{Standardization Compliance Rate}
-\label{sub:standardizzationComplianceRate}
+\label{sub:stdCompliaceRate}
 
 This metric measures the proportion of IT services that fully conform to the organization's approved standards, including standardized architectures, service designs, infrastructure platforms, operating procedures and technology stacks. Standardization Compliance Rate provides an indication of the organization's ability to implement consistent and repeatable service delivery practices across business units and geographical regions.
 
@@ -204,11 +204,11 @@ Several IT Service Management processes have a direct impact on the degree of st
 
     \end{tabularx}
 
-    \caption{Measurement - Standardization Compliance Rate}
+    \caption{Standardization - Compliance Rate}
     \label{tab:measurement_StandardizationComplianceRate}
 \end{table}
 
-Overall, this KPI supports the Process Factory critical success factor by ensuring that IT services are not only delivered efficiently but are also structurally consistent, enabling economies of scale, improved governance, and reduced complexity across the bank`s global IT operations. \\
+Overall, this KPI supports the Process Factory critical success factor by ensuring that IT services are not only delivered efficiently but are also structurally consistent, enabling economies of scale, improved governance and reduced complexity across the bank's global IT operations. 
 
 %   Done but check bc there were some more thing i was CONSIDERING to add.
 
@@ -318,8 +318,28 @@ Overall, this KPI supports the Process Factory critical success factor by ensuri
 %   Savas
 
 \subsection{IT Service costs distribution}
+\label{sub:itservicecost}
 
-Total IT Service Cost per Service (TISCS) measures the complete financial cost associated with delivering and maintaining a specific IT service over a defined period. This metric provides a service-oriented view of IT expenditure by allocating both direct and indirect costs to individual services within the IT service portfolio. Unlike traditional IT budget measurements, which focus on aggregate spending, TISCS enables management to understand the actual cost of operating each service and to identify opportunities for cost optimization and efficiency improvements.
+To support the Continuous Improvement CSF~\ref{sec:continuousimprovement}, the selected metric for the Service Costs is ``\textbf{Total IT Service Cost per Service}'' (TISCS). This metric measures the total financial cost associated with delivering, operating, supporting and maintaining an individual IT service over a defined reporting period. \\
+Within the calcualtion are includes both direct costs, such as infrastructure, software licensing, personnel, supplier expenditures; than indirect costs, such as shared facilities, administrative overhead and common support services. \\
+
+Unlike traditional budgetary measures, that provide only an aggregated view of expenditure, this metric enables service-level cost transparency and supports informed managerial decision-making.
+Furthermore, it allows the organization to identify cost inefficiencies, compare service performance across business units and international operations, evaluate the financial impact of improvement initiatives; in the end allows to optimize resource allocation. \\
+
+
+Several IT Service Management processes directly influence this indicator, such as:
+\begin{itemize}
+    \item \textbf{Service Portfolio Management}: affects the metric by determining which services are offered, maintained, or retired, thereby influencing the overall service cost structure.
+    \item \textbf{Financial Management}: for IT Services plays a critical role in budgeting, accounting, cost allocation, and financial reporting associated with individual services.
+    \item \textbf{Service Level Management}: impacts service costs through the definition of service quality targets and performance requirements, which determine the resources necessary for service delivery.
+    \item \textbf{Change, Release and Deploy Management}: influence the metric by affecting the cost of implementing new or modified services and introducing operational efficiencies or inefficiencies. 
+    % Service Asset and Configuration Management contributes by providing accurate information regarding infrastructure assets and their associated costs.  -- not too many i guess, such ash
+    \item \textbf{Continual Service Improvement}: directly affects this metric through the identification and implementation of initiatives aimed at reducing operational costs, improving efficiency, and increasing the overall value delivered by IT services.
+
+\end{itemize}
+   
+
+In the end, this metric provides a comprehensive and strategically aligned measure of cost effectiveness, supporting both the Bank's Continuous Improvement objectives than its broader expansion.
 
     \begin{table}[h]
         \centering
@@ -342,7 +362,7 @@ Total IT Service Cost per Service (TISCS) measures the complete financial cost a
 
         \end{tabularx}
 
-        \caption{Measurement - Total IT Service Cost per Service}
+        \caption{Service costs - TISCS}
         \label{tab:measurement_ITcostperservice}
     \end{table}
 
@@ -455,6 +475,6 @@ IT Department should aim to higher percentage expecially related to high priorit
 
     \end{tabularx}
 
-    \caption{Measurement - Task Completed Since Last Report}
+    \caption{Backlog - Task Completed Since Last Report}
     \label{tab:TaskCompletedLastReport}
 \end{table}
