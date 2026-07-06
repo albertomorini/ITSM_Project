@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  6 JUL 2026 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  6 JUL 2026 18:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2100,22 +2100,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has b
 l.1 \cleardoublepage
                      [1
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./thesis.toc)
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+No file thesis.toc.
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [2
+[2
 
 
-] (./thesis.lof)
+]
+No file thesis.lof.
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- (./thesis.lot)
+No file thesis.lot.
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [3
+[3
 
 ]) (./preface/0_abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -2127,7 +2129,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 ] (./chapters/2_MissionGoals.tex
 Chapter 1.
-<images/organization_organigram.png, id=127, 835.12pt x 478.78876pt>
+
+LaTeX Warning: Reference `fig:organization_organigram' on page 1 undefined on input line 7.
+
+<images/organization_organigram.png, id=50, 835.12pt x 478.78876pt>
 File: images/organization_organigram.png Graphic file (type png)
 <use images/organization_organigram.png>
 Package pdftex.def Info: images/organization_organigram.png  used on input line 13.
@@ -2143,7 +2148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<images/vision.png, id=153, 1206.5075pt x 744.7825pt>
+<images/vision.png, id=81, 1206.5075pt x 744.7825pt>
 File: images/vision.png Graphic file (type png)
 <use images/vision.png>
 Package pdftex.def Info: images/vision.png  used on input line 14.
@@ -2152,6 +2157,9 @@ Package pdftex.def Info: images/vision.png  used on input line 14.
 
  <./images/vision.png>]
 Chapter 3.
+
+LaTeX Warning: Reference `sec:goals' on page 4 undefined on input line 11.
+
 
 Overfull \hbox (13.83328pt too wide) in paragraph at lines 10--12
 \T1/cmr/m/n/10 (-20) This customer-centric ap-proach sup-ports or-ga-ni-za-tion`s ob-jec-tives of de-liv-er-ing high-performance,
@@ -2164,24 +2172,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[5] [6] [7]) (./chapters/processFactory.tex [8]
+[5] [6]
+
+LaTeX Warning: Reference `sub:slaComplianceRate' on page 7 undefined on input line 178.
+
+[7]) (./chapters/processFactory.tex [8]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
+
+LaTeX Warning: Reference `sub:stdCompliaceRate' on page 9 undefined on input line 20.
+
 [9
 
 ] [10]
+
+LaTeX Warning: Reference `subs:standardization' on page 11 undefined on input line 101.
+
 
 LaTeX Warning: Reference `cap:measurementprocedures' on page 11 undefined on input line 102.
 
 [11] [12]) (./chapters/continuousImprov.tex [13]
 Chapter 5.
+
+LaTeX Warning: Reference `sec:goals' on page 14 undefined on input line 6.
+
 [14
 
 ]
+
+LaTeX Warning: Reference `sub:itservicecost' on page 15 undefined on input line 29.
+
 
 LaTeX Warning: Reference `contin' on page 15 undefined on input line 37.
 
@@ -2202,6 +2226,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `sub:prioritydistribution' on page 17 undefined on input line 196.
+
 ) (./chapters/5_Conclusions.tex [17] [18]
 Chapter 6.
 
@@ -2215,23 +2242,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 16.
+
+! Undefined control sequence.
+<argument> ...ar} & ↓ \\ \cline {2-5} \multirow 
+                                                  {-2}{*}{\cellcolor [HTML]{...
+l.36 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...tbf {↑} \\ \cline {2-5} \multirow 
+                                                  {-2}{*}{\cellcolor [HTML]{...
+l.36 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ent & ↓ \\ \cline {2-5} \multirow 
+                                                  {-2}{*}{\cellcolor [HTML]{...
+l.36 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-<images/metrics.png, id=246, 824.07875pt x 302.12875pt>
-File: images/metrics.png Graphic file (type png)
-<use images/metrics.png>
-Package pdftex.def Info: images/metrics.png  used on input line 23.
-(pdftex.def)             Requested size: 316.80121pt x 116.14703pt.
 [19
 
-]) [20 <./images/metrics.png>] (./thesis.acr [21
+]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+<images/metrics.png, id=203, 824.07875pt x 302.12875pt>
+File: images/metrics.png Graphic file (type png)
+<use images/metrics.png>
+Package pdftex.def Info: images/metrics.png  used on input line 51.
+(pdftex.def)             Requested size: 316.80121pt x 116.14703pt.
+) [20 <./images/metrics.png>] (./thesis.acr [21
 
 ]) (./thesis.gls [22
 
@@ -2239,7 +2308,12 @@ Package pdftex.def Info: images/metrics.png  used on input line 23.
 ]) [23
 
 
-] (./thesis.aux)
+] (./thesis.aux
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2248,26 +2322,34 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 40097 strings out of 467533
- 735971 string characters out of 5422138
- 1721133 words of memory out of 5000000
- 68100 multiletter control sequences out of 15000+600000
- 653759 words of font info for 181 fonts, out of 8000000 for 9000
+ 40102 strings out of 467533
+ 736056 string characters out of 5422138
+ 1722349 words of memory out of 5000000
+ 68105 multiletter control sequences out of 15000+600000
+ 654193 words of font info for 184 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 97i,16n,125p,2537b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 97i,17n,125p,2537b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:[Glossary:]{gkpis}\040text} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (28 pages, 1142287 bytes).
+Output written on thesis.pdf (28 pages, 1141146 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
- 55561 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 377 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 57609 words of extra memory for PDF output out of 61914 (max. 10000000)
 
