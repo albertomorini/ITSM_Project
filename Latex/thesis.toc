@@ -30,5 +30,5 @@
 \contentsline {subsection}{\numberline {3.6.1}Priority distribution}{15}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Task completed from last report}{16}{subsection.3.6.2}%
 \contentsline {chapter}{\numberline {4}Conclusions}{18}{chapter.4}%
-\contentsline {chapter}{Acronyms and abbreviations}{20}{section*.21}%
-\contentsline {chapter}{Glossary}{21}{section*.23}%
+\contentsline {chapter}{Acronyms and abbreviations}{21}{section*.21}%
+\contentsline {chapter}{Glossary}{22}{section*.23}%
