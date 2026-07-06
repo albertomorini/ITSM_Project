@@ -3,6 +3,7 @@
 \glossaryentry{ITSM?\glossentry{itsm}|glsseeformat[Glossary:]{gitsm}}{Z}
 \glossaryentry{PESTLE?\glossentry{pestle}|glsseeformat[Glossary:]{gpestle}}{Z}
 \glossaryentry{SLA?\glossentry{sla}|glsseeformat[Glossary:]{gsla}}{Z}
+\glossaryentry{CI?\glossentry{ci}|glsseeformat[Glossary:]{gci}}{Z}
 \glossaryentry{CSF?\glossentry{csf}|setentrycounter[]{page}"\glsnumberformat}{2}
 \glossaryentry{PESTLE?\glossentry{pestle}|setentrycounter[]{page}"\glsnumberformat}{2}
 \glossaryentry{KPI?\glossentry{kpi}|setentrycounter[]{page}"\glsnumberformat}{2}
@@ -11,6 +12,7 @@
 \glossaryentry{KPI?\glossentry{kpi}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{SLA?\glossentry{sla}|setentrycounter[]{page}"\glsnumberformat}{6}
 \glossaryentry{KPI?\glossentry{kpi}|setentrycounter[]{page}"\glsnumberformat}{6}
+\glossaryentry{CI?\glossentry{ci}|setentrycounter[]{page}"\glsnumberformat}{7}
 \glossaryentry{ITSM?\glossentry{itsm}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{CSF?\glossentry{csf}|setentrycounter[]{page}"\glsnumberformat}{14}
 \glossaryentry{KPI?\glossentry{kpi}|setentrycounter[]{page}"\glsnumberformat}{16}
@@ -21,3 +23,4 @@
 \glossaryentry{ITSM?\glossentry{itsm}|setentrycounter[]{page}"\glsnumberformat}{21}
 \glossaryentry{PESTLE?\glossentry{pestle}|setentrycounter[]{page}"\glsnumberformat}{21}
 \glossaryentry{SLA?\glossentry{sla}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{CI?\glossentry{ci}|setentrycounter[]{page}"\glsnumberformat}{21}

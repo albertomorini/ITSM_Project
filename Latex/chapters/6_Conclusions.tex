@@ -26,12 +26,21 @@ For each Critical Success Factor, appropriate Key Performance Indicators (KPIs) 
 >{\columncolor[HTML]{FFFFFF}}c |}
 \hline
 \cellcolor[HTML]{CBCEFB}\textbf{Critical Success Factor}                  & \cellcolor[HTML]{CBCEFB}\textbf{Key Performance Indicator} & \cellcolor[HTML]{CBCEFB}\textbf{Metric for Measurement} & \multicolumn{1}{c|}{\cellcolor[HTML]{CBCEFB}\textbf{Main ITSM Processes}}                               & \cellcolor[HTML]{CBCEFB}\textbf{Desired Trend} \\ \hline
-\cellcolor[HTML]{ECF4FF}                                                  & Time to Market                                             & Avg. Lead time to Production                            & \begin{tabular}[c]{@{}l@{}}- Change Enablement\\ - Release Management\end{tabular}                      & ↓                                              \\ \cline{2-5} 
-\multirow{-2}{*}{\cellcolor[HTML]{ECF4FF}\textbf{Customer Partnership}}   & Performance to Contract                                    & SLA Compliance Rate                                     & \begin{tabular}[c]{@{}l@{}}- Service Level Management\\ - Incident Management\end{tabular}              & \textbf{↑}                                     \\ \hline
-\cellcolor[HTML]{ECF4FF}                                                  & Standardization                                            & Standardization Compliance Rate                         & \begin{tabular}[c]{@{}l@{}}- Service Design\\ - Service Asset and Configuration Management\end{tabular} & \textbf{↑}                                     \\ \cline{2-5} 
-\multirow{-2}{*}{\cellcolor[HTML]{ECF4FF}\textbf{Process Factory}}        & Waste                                                      & Repeated Incident Rate                                  & \begin{tabular}[c]{@{}l@{}}- Incident Management\\ - Problem Management\end{tabular}                    & ↓                                              \\ \hline
-\cellcolor[HTML]{ECF4FF}                                                  & Service Costs                                              & Total IT Service Cost Per Service                       & - Financial Management                                                                                  & ↓                                              \\ \cline{2-5} 
-\multirow{-2}{*}{\cellcolor[HTML]{ECF4FF}\textbf{Continuous Improvement}} & Backlog                                                    & Backlog Priority Distribution                           & \begin{tabular}[c]{@{}l@{}}- Change Management\\ - Continuous Improvement\end{tabular}                  & Optimize                                       \\ \hline
+\cellcolor[HTML]{ECF4FF}                                                  & Time to Market~\ref{subs:timetomarket}                                             & Avg. Lead time to Production~\ref{sub:AverageLeadTime}                            & \begin{tabular}[c]{@{}l@{}}- Change Enablement\\ - Release Management\end{tabular}                      & ↓                                              \\ \cline{2-5} 
+\multirow{-2}{*}{\cellcolor[HTML]{ECF4FF}\textbf{Customer Partnership}}   & Performance to Contract~\ref{subs:performancetocontract}                                    & \begin{tabular}[c]{@{}l@{}}
+SLA Compliance Rate~\ref{sub:slaComplianceRate} \\
+Mean time for restoring service~\ref{sub:meantTimeRestore}
+\end{tabular}                                     & \begin{tabular}[c]{@{}l@{}}- Service Level Management\\ - Incident Management\end{tabular}              & \textbf{↑}                                     \\ \hline
+\cellcolor[HTML]{ECF4FF}                                                  & Standardization~\ref{subs:standardization}                                            & Standardization Compliance Rate~\ref{sub:stdCompliaceRate}                         & \begin{tabular}[c]{@{}l@{}}- Service Design\\ - Service Asset and Configuration Management\end{tabular} & \textbf{↑}                                     \\ \cline{2-5} 
+\multirow{-2}{*}{\cellcolor[HTML]{ECF4FF}\textbf{Process Factory}}        & Waste~\ref{subs:waste}                                                      &  \begin{tabular}[c]{@{}l@{}}
+Repeated Incident Rate~\ref{sub:repeatedIncident} \\
+ Rework Rate~\ref{sub:reworkRate}
+\end{tabular}                                  & \begin{tabular}[c]{@{}l@{}}- Incident Management\\ - Problem Management\end{tabular}                    & ↓                                              \\ \hline
+\cellcolor[HTML]{ECF4FF}                                                  & Service Costs~\ref{subs:servicecosts}                                              & Total IT Service Cost Per Service~\ref{sub:itservicecost}                       & - Financial Management                                                                                  & ↓                                              \\ \cline{2-5} 
+\multirow{-2}{*}{\cellcolor[HTML]{ECF4FF}\textbf{Continuous Improvement}} & Backlog~\ref{subs:backlog}                                                    & \begin{tabular}[c]{@{}l@{}}
+Backlog Priority Distribution~\ref{sub:prioritydistribution} \\
+Task completed from last report~\ref{sub:taskcompleted}
+\end{tabular}                          & \begin{tabular}[c]{@{}l@{}}- Change Management\\ - Continuous Improvement\end{tabular}                  & Optimize                                       \\ \hline
 \end{tabular}
 }
 \caption{Summary - Main KPI Metrics and their Relationships}

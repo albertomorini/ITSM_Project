@@ -80,35 +80,15 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
    <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool> 
-<<<<<<< HEAD
-<<<<<<< HEAD
-   <xmp:ModifyDate>2026-07-06T18:22:50+02:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2026-07-06T18:22:50+02:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2026-07-06T18:22:50+02:00</xmp:MetadataDate> 
-=======
-   <xmp:ModifyDate>2026-07-06T16:35:21+02:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2026-07-06T16:35:21+02:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2026-07-06T16:35:21+02:00</xmp:MetadataDate> 
->>>>>>> e9fde13 (Summary table done)
-=======
-   <xmp:ModifyDate>2026-07-06T18:09:06+02:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2026-07-06T18:09:06+02:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2026-07-06T18:09:06+02:00</xmp:MetadataDate> 
->>>>>>> f7b365d (Table)
+   <xmp:ModifyDate>2026-07-06T19:59:41+02:00</xmp:ModifyDate> 
+   <xmp:CreateDate>2026-07-06T19:59:41+02:00</xmp:CreateDate> 
+   <xmp:MetadataDate>2026-07-06T19:59:41+02:00</xmp:MetadataDate> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
    <xmpMM:DocumentID>uuid:C8CFC28F-88E1-7995-E9AD-F6D12EAD346B</xmpMM:DocumentID> 
-<<<<<<< HEAD
-<<<<<<< HEAD
-   <xmpMM:InstanceID>uuid:75BAE173-C33C-2632-BFED-669CE289DCE5</xmpMM:InstanceID> 
-=======
-   <xmpMM:InstanceID>uuid:88C7935F-9813-2774-1C41-3F40B43DE339</xmpMM:InstanceID> 
->>>>>>> e9fde13 (Summary table done)
-=======
-   <xmpMM:InstanceID>uuid:833AB34E-64A2-495C-FCC8-731DF9B59333</xmpMM:InstanceID> 
->>>>>>> f7b365d (Table)
+   <xmpMM:InstanceID>uuid:E425B7FD-C9DE-2108-35FA-14FCFAD13FEE</xmpMM:InstanceID> 
   </rdf:Description> 
  </rdf:RDF> 
 </x:xmpmeta> 
