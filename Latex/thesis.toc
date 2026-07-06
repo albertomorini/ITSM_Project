@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Rework rate}{12}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Continuous Improvement}{14}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Service Costs}{14}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}IT Service costs distribution}{15}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.1}IT Service cost per service}{15}{subsection.5.1.1}%
 \contentsline {section}{\numberline {5.2}Backlog}{16}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Priority distribution}{17}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Task completed from last report}{18}{subsection.5.2.2}%
