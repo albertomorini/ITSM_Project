@@ -3,25 +3,25 @@
 \contentsline {chapter}{\numberline {1}Organisational Mission and Goals}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Mission}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Goals}{1}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Critical Success Factors}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Customer Partnership}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Time To Market}{4}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Average Lead Time for Change to Production}{5}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Performance To Contract}{6}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}SLA Compliance Rate}{6}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Mean time for restoring service}{7}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Process Factory}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Standardization}{9}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Standardization Compliance Rate}{9}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Waste}{10}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Repeated Incident rate}{11}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Rework rate}{12}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Continuous Improvement}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Service Costs}{14}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}IT Service cost per service}{15}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Backlog}{16}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Priority distribution}{17}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Task completed from last report}{18}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Conclusions}{19}{chapter.6}%
-\contentsline {chapter}{Acronyms and abbreviations}{22}{section*.22}%
-\contentsline {chapter}{Glossary}{23}{section*.24}%
+\contentsline {chapter}{\numberline {2}Critical Success Factors}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Customer Partnership}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Time To Market}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Average Lead Time for Change to Production}{6}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Performance To Contract}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}SLA Compliance Rate}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Mean time for restoring service}{8}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Process Factory}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Standardization}{10}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Standardization Compliance Rate}{10}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Waste}{11}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Repeated Incident rate}{12}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Rework rate}{13}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Continuous Improvement}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Service Costs}{15}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}IT Service cost per service}{16}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Backlog}{17}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Priority distribution}{18}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Task completed from last report}{19}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Conclusions}{20}{chapter.6}%
+\contentsline {chapter}{Acronyms and abbreviations}{23}{section*.22}%
+\contentsline {chapter}{Glossary}{24}{section*.24}%
