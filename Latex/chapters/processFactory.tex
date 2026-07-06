@@ -1,0 +1,193 @@
+\chapter{Process Factory}
+%   Savas
+
+% The Process Factory \gls{csf} approach is required in order to transform the IT department into a Shared Service Center, where IT Services are delivered through standardized, repeatable, and performance-oriented processes. This factor is important considering the bank's international expansion strategy, the integration of acquired oversees banks and the consolidation of support functions within the Shared Services  Division.
+
+%   DONE but check
+
+% From Alberto:
+The Process Factory approach aims to standardize IT Service Management (\gls{itsm}) processes in order to deliver \textbf{``standardized''} services with greater efficiency, higher quality, and lower operational costs. This is a critical factors, that needs to see IT Department operate as ``Shared Service Center'' toward the identification and elimination of \textbf{``waste''}, defined as any activity that consumes resources without creating value for stakeholders or supporting business objectives. 
+
+
+\section{Standardization}
+\label{subs:standardization}
+%   Savas
+
+% The Process Factory critical success factor focuses on establishing highly standardized, efficient, and repeatable processes that enable the IT department to operate as a Shared Service Center. 
+
+The standardization or ITSM process, reduces operational complexity, improves service quality, facilitates integration between organisational units and enables economies of scale. Within the context of the bank case study, standardization is particularly important due to the ongoing integration of acquired international banks, the use of shared services and the strategic objective of delivering high quality and cost effective IT services. \\
+
+To measure the level of standardization achieved within the IT organization, the ``\textbf{percentage of standardized services}'' works as KPI, explained in next chapter~\ref{sub:stdCompliaceRate}.
+% Percentage of IT Services Complying with Standardized Service and Infrastructure Architectures needs to be used as a KPI metric.  --> TOOO COMPLIACATED/LONG, 
+
+
+\subsection{Standardization Compliance Rate}
+\label{sub:stdCompliaceRate}
+
+This metric measures the proportion of IT services that fully conform to the organization's approved standards, including standardized architectures, service designs, infrastructure platforms, operating procedures and technology stacks. Standardization Compliance Rate provides an indication of the organization's ability to implement consistent and repeatable service delivery practices across business units and geographical regions.
+
+A high value for this metric indicates a mature and efficient operating model characterized by reduced complexity, simplified maintenance activities, improved interoperability and lower operational costs. This directly supports the bank's strategic objective of integrating international operations while maintaining high service quality and cost effectiveness.
+
+Several IT Service Management processes have a direct impact on the degree of standardization achieved within the organization:
+
+\begin{itemize}
+    \item \textbf{Service Portfolio Management:} ensures that new and existing services align with organizational standards and strategic objectives. Also prevents the introduction of unnecessary service variations.
+    \item \textbf{Service Design:} defines standardized service architectures, technical specifications, support models and operational requirements. Furthermore promotes the reuse of existing service components and standardized technologies.
+    \item \textbf{Change Enablement:} cntrols modifications to services and infrastructure, ensuring that implemented changes comply with approved standards. Additionally prevents unauthorized deviations from established architectures.
+    \item \textbf{Service Asset and Configuration Management:} maintains accurate information about service assets and configuration items, enabling verification of compliance with approved standards.
+    \item \textbf{Release and Deployment Management:} ensures that new releases and deployments are implemented using standardized procedures, tools and configurations.
+    \item \textbf{Continual Service Improvement:} monitors standardization performance metrics and identifies opportunities to further reduce process variation and improve operational efficiency.
+\end{itemize}
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.6}
+    \setlength{\arrayrulewidth}{0.6pt}
+
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Standardization Compliance Rate}}} \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Description} & \textbf{Unit} \\ \hline
+    Percentage of IT services complying with standardized service and infrastructure architectures. &
+    Percentage. \\ \hline
+
+    \rowcolor{mclightgray}
+    \textbf{Formula} & \textbf{Frequency} \\ \hline
+    \[
+        \frac{\text{Compliant IT services}}{\text{Total IT services assessed}} \times 100
+    \]
+     &
+    Quarterly, Monthly, Bianually \\ \hline
+
+    \end{tabularx}
+
+    \caption{Standardization - Compliance Rate}
+    \label{tab:measurement_StandardizationComplianceRate}
+\end{table}
+
+Overall, this KPI supports the Process Factory critical success factor by ensuring that IT services are not only delivered efficiently but are also structurally consistent, enabling economies of scale, improved governance and reduced complexity across the bank's global IT operations. 
+
+%   Done but check bc there were some more thing i was CONSIDERING to add.
+
+
+%   DONE but check
+
+\section{Waste}
+\label{subs:waste}
+
+With the term \textbf{waste} IT Service Management intend every activioty that consumes time, effort or financial resources without increasing the value delivered to the customer. From Lean methodology and ITIL perspective, customers only perceive value when an IT service is available, reliable, secure and supports the desired utility functions. 
+Any process that do not contribute to outcomes is considered waste and should be minimized or eliminated (\textit{as the guiding principles suggests: ``Keep it simple and practical''}).
+
+Waste includes more than obvious failures, such as services outages, but also hidden inefficiencies embedded in recurrent operations. These may include redudant processes steps, unnecessary approvals, excessive manual work, repeated incident resolution, but even the collections of data taht is never used to improve services.\\
+Such activities increase oprational costs, reducing productivity and delaying service delivery, impact negatively ithe customer satisfaction.
+
+Lean thinking identifies different categories of waste that can be directly applied to IT Service Management, such as:
+\begin{itemize}
+    \item \textbf{Waiting}: delays caused by approvals, unavailable personnel or dependencies between teams. \textit{Waiting increases lead time without adding value.}
+    \item \textbf{Defects}: errors that require correction, like failed software releases, configuration mistakes, security vulnerabilities, or inaccurate service records.
+    \item \textbf{Overprocessing}: performing more work than necessary, including excessive documentation not required or needed by stakeholders. Even unnecessary or redundant approvals, or too many resources allocated to simple activities (often wrongly added near to a delivery deadline).
+    \item \textbf{Unused talents}: failing to involve employees with valuable expertise in process improvement, service design or decision-making. \textit{Opposing the ``Collaborate and promote visibility'' guiding principle.}
+    \item \textbf{Inventory}: backlogs of unresolved incidents, accumulated change requests, unused hardware, and outdated or unused retreived information.
+\end{itemize}
+
+These concepts can be applied through concrete examples to the Bank's use case scenario. For instance, without a structured \textbf{knowledge management} that holds documentation and reusable knowledge, service desk analysts and technical staff repeatedly solve the same problems independently. This duplication of effort represents both overprocessing and inventory waste, increasing incident resolution times and reducing overall efficiency.\\
+Another source of waste comes from poor involvement of internal customers during the Service Transition and Service Design, as a result a lot of misunderstandings and usability issues could emerge that converge into rework, additional testing, and corrective changes. This represents both waiting and defects of a service, since problems are identified later in the service lifecycle or already in a production environment
+
+An important aspect that the Bank needs to handle, thus avoiding waste, is due to the expansion into different countries. Social aspects such as language, culture, time zones, and organizational practices could end up creating a bottleneck for the communication system, delaying the throughput of information and slowing incident resolution, change approvals, or decision-making.
+
+
+Even the differences in operational practices, in the absence of standardized processes \ref{subs:standardization}, could represent a duplication of work and the creation of organizational silos, which can slow down decisions taken toward goal realization, representing the opposite of one of ITIL core guiding principle \textit{``Think and work holistically''}. \\
+For the Bank, reducing waste is a necessity that allows IT resources to focus on innovation, improvements in service quality and lower operating costs. In order to individuate waste, the organization must ensure standardization of processes, automate repetitive activities, define responsibilities and continuously monitor performance through KPIs (analyzed in the following chapter \ref{cap:measurementprocedures}). This transformation of strategy makes the IT department operate as a ``Shared Service Center'' that provides high performance, high quality and cost-effectiveness, aligned with the organization's goals.
+
+\subsection{Repeated Incident rate}
+
+    To measure how many incident occur dued to problems that are not already been resolved.\\
+    ITSM process involved are:
+
+    \begin{itemize}
+        \item \textbf{Incident Management} which is accountable to register the incident and potential workaround used in restoring the service
+        \item \textbf{Problem Management} to identify the potential and actual causes of indicents (or known errors) and reduce the probability of the impacts by providing the solutions and workarounds.
+        \item \textbf{Knowledge Management} that maintain and improve the eﬀective, efficient, convenient use of information and knowledge across the organization
+        \item \textbf{Continual Improvement} in order to increase the value overall the performance and quality of the service
+    \end{itemize}
+
+    \begin{table}[h]
+        \centering
+        \renewcommand{\arraystretch}{1.6}
+        \setlength{\arrayrulewidth}{0.6pt}
+
+        \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Repeated Incident Rate}}} \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Description} & \textbf{Unit} \\ \hline
+        A high value indicate a wasted effort since the cause of the incident has not been eliminated. &
+        Percentage. \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Formula} & \textbf{Frequency} \\ \hline
+        \[
+            \frac{\text{Recurring incidents}}{\text{Total incidents}} \times 100
+        \]
+
+        &
+        Weekly/Monthly. \\ \hline
+
+        \end{tabularx}
+
+        \caption{Waste - Repeated Incident Rate}
+        \label{tab:measurement_RepeatedIncident}
+    \end{table}
+
+
+\subsection{Rework rate}
+
+    For instance, since the Bank aims to increase revenue from its Internet Banking services, poor user experience caused by application malfunctions or insufficient service quality may reduce customer engagement. At the same time, these defects can represent significant rework for both external suppliers and the internal design and development teams; increasing costs and delaying service improvements, reducing the overall efficiency of the Service Value Chain (SVC).
+
+    The rate of the rework activities serve a strong KPI for user engagement and involves many process of IT Service Management, main of them are:
+    \begin{itemize}
+        \item \textbf{Change Enablement}: which have to maximize the number of successful service and product changes by:
+        \begin{enumerate}
+            \item ensuring that risks have been properly assessed
+            \item authorizing changes to proceed
+            \item managing the change schedule
+        \end{enumerate}
+        \item \textbf{Service Validation and Testing}: in order to check that the service meets the desired customer requests.
+        \item \textbf{Release Management}: that has the purpose of moving new or changed hardware, software,documentation,processes or any other component to live environments. In this case, needs to apply the reworked services in production.
+    \end{itemize}
+
+
+        \begin{table}[H]
+        \centering
+        \renewcommand{\arraystretch}{1.6}
+        \setlength{\arrayrulewidth}{0.6pt}
+
+        \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \multicolumn{2}{|c|}{\cellcolor{mcblue}\textcolor{white}{\textbf{Rework Rate}}} \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Description} & \textbf{Unit} \\ \hline
+        Indicate how many activities and work item needs a rework. Higher value indicated inefficiency and waste. &
+        Percentage. \\ \hline
+
+        \rowcolor{mclightgray}
+        \textbf{Formula} & \textbf{Frequency} \\ \hline
+        \[
+            \frac{\text{Work task reopened}}{\text{Total completed work task}} \times 100
+        \]
+
+        &
+        Montly. \\ \hline
+
+        \end{tabularx}
+
+        \caption{Waste - Rework Rate}
+        \label{tab:measurement_NUMofOpenIncident}
+        \end{table}
+
+
+% ---------------------------------------------------------

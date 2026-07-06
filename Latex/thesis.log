@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  6 JUL 2026 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  6 JUL 2026 17:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2127,7 +2127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 ] (./chapters/2_MissionGoals.tex
 Chapter 1.
-<images/organization_organigram.png, id=141, 835.12pt x 478.78876pt>
+<images/organization_organigram.png, id=127, 835.12pt x 478.78876pt>
 File: images/organization_organigram.png Graphic file (type png)
 <use images/organization_organigram.png>
 Package pdftex.def Info: images/organization_organigram.png  used on input line 13.
@@ -2143,51 +2143,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<images/vision.png, id=167, 1206.5075pt x 744.7825pt>
+<images/vision.png, id=153, 1206.5075pt x 744.7825pt>
 File: images/vision.png Graphic file (type png)
 <use images/vision.png>
 Package pdftex.def Info: images/vision.png  used on input line 14.
 (pdftex.def)             Requested size: 356.39758pt x 220.00441pt.
-[3
+) (./chapters/customerPartnership.tex [3
 
  <./images/vision.png>]
-Overfull \hbox (13.83328pt too wide) in paragraph at lines 29--31
+Chapter 3.
+
+Overfull \hbox (13.83328pt too wide) in paragraph at lines 10--12
 \T1/cmr/m/n/10 (-20) This customer-centric ap-proach sup-ports or-ga-ni-za-tion`s ob-jec-tives of de-liv-er-ing high-performance,
  []
 
+[4
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[5] [6] [7]) (./chapters/4_MeasurementProcedures.tex [8]
-Chapter 3.
+[5] [6] [7]) (./chapters/processFactory.tex [8]
+Chapter 4.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
 
 [9
 
+] [10]
+
+LaTeX Warning: Reference `cap:measurementprocedures' on page 11 undefined on input line 102.
+
+[11] [12]) (./chapters/continuousImprov.tex [13]
+Chapter 5.
+[14
+
 ]
+
+LaTeX Warning: Reference `contin' on page 15 undefined on input line 37.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
+[15] [16]
 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--328
-
- []
-
-[14] [15]) (./chapters/5_Conclusions.tex [16] [17]
-Chapter 4.
+) (./chapters/5_Conclusions.tex [17] [18]
+Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
@@ -2208,19 +2224,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<images/metrics.png, id=260, 824.07875pt x 302.12875pt>
+<images/metrics.png, id=246, 824.07875pt x 302.12875pt>
 File: images/metrics.png Graphic file (type png)
 <use images/metrics.png>
 Package pdftex.def Info: images/metrics.png  used on input line 23.
 (pdftex.def)             Requested size: 316.80121pt x 116.14703pt.
-[18
+[19
 
-]) [19 <./images/metrics.png>] (./thesis.acr [20
+]) [20 <./images/metrics.png>] (./thesis.acr [21
 
-]) (./thesis.gls [21
+]) (./thesis.gls [22
 
 
-]) [22
+]) [23
 
 
 ] (./thesis.aux)
@@ -2228,15 +2244,19 @@ Package pdftex.def Info: images/metrics.png  used on input line 23.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 40096 strings out of 467533
- 735755 string characters out of 5422138
- 1721222 words of memory out of 5000000
- 68099 multiletter control sequences out of 15000+600000
+ 40097 strings out of 467533
+ 735971 string characters out of 5422138
+ 1721133 words of memory out of 5000000
+ 68100 multiletter control sequences out of 15000+600000
  653759 words of font info for 181 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  97i,16n,125p,2537b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2244,10 +2264,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{glo:[Glossary:]{gkpis}\040text} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (27 pages, 1145862 bytes).
+Output written on thesis.pdf (28 pages, 1142287 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 457 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 55617 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 420 compressed objects within 5 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 55561 words of extra memory for PDF output out of 61914 (max. 10000000)
 
