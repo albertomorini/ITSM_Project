@@ -1,51 +1,38 @@
-# WHAT TO DO:
+# IT Service Management Project
 
-Chapters 
 
-1. VISION -> S
-2. GOALS -> A
-   1. *To increase income from internet banking by 70%*
-   2. *High quality and cost effectiveness*
-3. FACTORS
-   1. Customer partnership -> A
-      - Time To Market -> S
-      - Performance To Contract -> A
-   2. Process Factory -> S
-      - Standardization -> A
-      - Waste -> S
-   3. Continuous Improvement -> S
-      - Service Cors -> S
-      - Backlog -> A
-4. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
+In this project, has been analyzed the use scase scenario of a Bank that accomplish some acquisitions of other financial institutions overseas.
 
-Proposed Updated Structure of the Dissertation CHAPTERS:
+Applying ITSM concept, we analyzed respective CSF (Critical Successful Factors) and for each of them individuate some KPIs (Key Performance Indicator) thus to support and accomplish business vision.
 
-- Abstract
-1. Introduction (we should mention the concepts mentioned in the ITSM for Performance based management)
-2. Organisational VISION -> S and GOALS -> A
-   1. *To increase income from internet banking by 70%*
-   2. *High quality and cost effectiveness*
-3. Critical Success FACTORS
-   1. Customer partnership -> A
-      - Time To Market -> S
-      - Performance To Contract -> A
-   2. Process Factory -> S
-      - Standardization -> A
-      - Waste -> S
-   3. Continuous Improvement -> S
-      - Service Cors -> S
-      - Backlog -> A
-4. Measurement Procedures
-   1. Time to Market
-      (give and describe the card for each)
-   3. Performance to Contact
-   4. Standardization
-   5. Waste
-   6. Service Costs
-   7. Backlog
-5. Conclusion: what's our impact (ITSM), the value that we provide to the bank. -> A+S
-      
+[PDF](ITSM_MoriniGur.pdf)
 
+## Chapters:
+
+1. Organisational Mission and Goals
+   - Mission
+   - Goals
+2. Critical Success Factors
+3. Customer Partnership
+   - Time To Market
+     - Average Lead Time for Change to Production
+   - Performance To Contract
+     - SLA Compliance Rate
+     - Mean time for restoring service
+4. Process Factory
+   - Standardization
+      - Standardization Compliance Rate
+   - Waste
+      - Repeated Incident rate
+      - Rework rate
+5. Continuous Improvement
+   - Service Costs
+      - IT Service cost per service
+   - Backlog
+     - Priority distribution
+     - Task completed from last report
+
+------------------------
 ------------------------
 
 # ITSM - project notes
